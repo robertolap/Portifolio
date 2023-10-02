@@ -61,6 +61,36 @@
     font-size: 2rem;
   }
 
+  .tivittitle {
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 10rem;
+    margin-left: 40rem;
+    font-size: 3rem;
+    color: white;
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .tivittitle span {
+    font-family: "Poppins";
+    font-size: 2rem;
+  }
+
+  .saudetitle {
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 10rem;
+    margin-left: 4rem;
+    font-size: 3rem;
+    color: white;
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  .saudetitle span {
+    font-family: "Poppins";
+    font-size: 2rem;
+  }
+
   .aws {
     background-image: url("/public/img/aws.png");
     background-size: 40%;
@@ -84,7 +114,7 @@
 
   .bayer {
     background-image: url("/public/img/bayer.jpg");
-    background-size: 90%;
+    background-size: 99.9%;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #e8f6f6;
@@ -103,17 +133,43 @@
     transform: scale(0.9);
   }
 
-  .awsmodal {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: #131313; /* Cor de fundo do modal */
-    z-index: 1000;
+  .tivit {
+    background-image: url("/public/img/tivit.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e8f6f6;
+    width: 500px;
+    height: 200px;
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 6px;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+  .tivit:hover {
+    transform: scale(0.9);
   }
 
-  .buttonclose {
-    width: 30px;
-    height: 30px;
+  .saude {
+    background-image: url("/public/img/saude.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e8f6f6;
+    width: 500px;
+    height: 200px;
+    grid-column: 1;
+    grid-row: 4;
+    border-radius: 6px;
+    margin-top: 8rem;
+    margin-left: 28rem;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+
+  .saude:hover {
+    transform: scale(0.9);
   }
 
   .hidden-header {

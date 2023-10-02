@@ -1,37 +1,43 @@
-import React, { useEffect, useState } from "react";
-import Modal from "react-modal";
+import React, { useEffect } from "react";
 import { ativaLetra } from "./animation";
-Modal.setAppElement("#root");
+import Carousel, { Card } from "./carousel"; // Importando Card do Carousel.js
+
+const cardData = [
+  {
+    title: "2019-2023",
+    content: "Computer Engineering Fiap",
+  },
+  {
+    title: "2023-2026",
+    content: "AWS Cloud Practitioner",
+  },
+  {
+    title: "2023-2026",
+    content: "AWS Partner: Accreditation",
+  },
+  {
+    title: "2023-2026",
+    content: "AWS Partner: SAP on AWS",
+  },
+  {
+    title: "2010-2011",
+    content: "Business Management Centro Paula Souza",
+  },
+  {
+    title: "2008-2009",
+    content: "Machining Technician Senai",
+  },
+];
 
 function App() {
-  //digitando
   useEffect(() => {
     const titulo = document.querySelector(".hello");
     ativaLetra(titulo);
   }, []);
 
-  // Função que abre a modal
-  const [modalContent, setModalContent] = useState("");
-  const [headerVisible, setHeaderVisible] = React.useState(true);
-
-  function abrirModal(content) {
-    setModalContent(content); // Define o conteúdo do modal with the argument
-    setHeaderVisible(false);
-    setModalIsOpen(true);
-  }
-
-  // Função que fecha a modal
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-  function fecharModal() {
-    setHeaderVisible(true);
-    setModalIsOpen(false);
-  }
-
   return (
     <body>
-      <header
-        className={`modal-header ${headerVisible ? "" : "hidden-header"}`}
-      >
+      <header>
         <nav>
           <div class="loader">
             <div class="circle"></div>
@@ -57,6 +63,7 @@ function App() {
           </ul>
         </nav>
       </header>
+
       <div className="backgroundimage">
         <h2 className="hello">Hi There I'm a </h2>
         <h1 className="front">Front-End</h1>
@@ -191,53 +198,39 @@ function App() {
             Migrations and Cloud Economics Latam <br></br>
             <span>08/2021 – 08/2023</span>
           </h2>
-          <button className="aws" onClick={() => abrirModal("aws")}></button>
+          <button className="aws" id="openModalBtn"></button>
 
           <h2 className="bayertitle">
             IT Businness Experience <br></br>
             <span>02/2021 – 08/2021</span>
           </h2>
-          <button
-            className="bayer"
-            onClick={() => abrirModal("bayer")}
-          ></button>
+          <button className="bayer" id="openModalBtn"></button>
 
-          <Modal
-            isOpen={modalIsOpen}
-            onRequestClose={fecharModal}
-            className="awsmodal"
-          >
-            {modalContent === "aws" ? (
-              <>
-                <h2>Conteúdo do AWS</h2>
-                <button className="buttonclose" onClick={fecharModal}>
-                  Fechar
-                </button>
-              </>
-            ) : modalContent === "bayer" ? (
-              <>
-                <h2>Conteúdo do Bayer</h2>
-                <button className="buttonclose" onClick={fecharModal}>
-                  Fechar
-                </button>
-              </>
-            ) : modalContent === "tivit" ? (
-              <>
-                <h2>Conteúdo do Bayer</h2>
-                <button className="buttonclose" onClick={fecharModal}>
-                  Fechar
-                </button>
-              </>
-            ) : modalContent === "saude" ? (
-              <>
-                <h2>Conteúdo do Bayer</h2>
-                <button className="buttonclose" onClick={fecharModal}>
-                  Fechar
-                </button>
-              </>
-            ) : null}
-          </Modal>
+          <h2 className="tivittitle">
+            Digital Consulting <br></br>
+            <span>10/2019 – 12/2020</span>
+          </h2>
+          <button className="tivit" id="openModalBtn"></button>
+
+          <h2 className="saudetitle">
+            Optical Supervisor<br></br>
+            <span>Oct 2013 - May 2019</span>
+          </h2>
+          <button className="saude" id="openModalBtn"></button>
         </div>
+      </section>
+
+      <section class="academic" id="academic">
+        <div className="titlecont">
+          <i class="fa-solid fa-building-columns"></i>{" "}
+          <h1 className="academictitle">Academic</h1>
+        </div>
+
+        <Carousel>
+          {cardData.map((card, i) => (
+            <Card key={i} title={card.title} content={card.content} />
+          ))}
+        </Carousel>
       </section>
     </body>
   );

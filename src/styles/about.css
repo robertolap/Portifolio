@@ -55,9 +55,8 @@
   }
 
   .icons a i:hover {
-    transform: scale(
-      1.5
-    ); /* Aumenta o ícone em 20% quando o mouse passa por cima */
+    transform: scale(1.5);
+    color: #c0c0c0;
   }
 
   .loader2 {

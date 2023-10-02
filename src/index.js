@@ -6,6 +6,8 @@ import "./styles/cover.css";
 import "./styles/header.css";
 import "./styles/about.css";
 import "./styles/work.css";
+import "./styles/academic.css";
+import "./styles/carousel.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
