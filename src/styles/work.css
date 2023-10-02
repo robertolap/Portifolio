@@ -1,0 +1,122 @@
+@media (min-width: 1900px) {
+  .work {
+    padding-top: 5rem;
+    width: 100%;
+    background-color: #131313;
+  }
+
+  .titlecont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .work i {
+    margin-top: 5rem;
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+  .worktitle {
+    margin-top: 5rem;
+    color: white;
+    font-size: 3rem;
+    font-family: "Poppins";
+  }
+
+  .popup {
+    margin-top: -1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .awstitle {
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 9rem;
+    margin-left: 20rem;
+    font-size: 3rem;
+    color: white;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .awstitle span {
+    font-family: "Poppins";
+    font-size: 2rem;
+  }
+
+  .bayertitle {
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+    color: white;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .bayertitle span {
+    font-family: "Poppins";
+    font-size: 2rem;
+  }
+
+  .aws {
+    background-image: url("/public/img/aws.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #203344;
+    width: 500px;
+    height: 200px;
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 6px;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+
+  .aws:hover {
+    transform: scale(0.9);
+  }
+
+  .bayer {
+    background-image: url("/public/img/bayer.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #e8f6f6;
+    width: 500px;
+    height: 200px;
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 6px;
+    margin-top: 8rem;
+    margin-left: 28rem;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+
+  .bayer:hover {
+    transform: scale(0.9);
+  }
+
+  .awsmodal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #131313; /* Cor de fundo do modal */
+    z-index: 1000;
+  }
+
+  .buttonclose {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hidden-header {
+    display: none;
+  }
+}
