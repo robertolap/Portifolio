@@ -1,178 +1,197 @@
-@media (min-width: 1900px) {
-  .work {
-    padding-top: 5rem;
-    width: 100%;
-    background-color: #131313;
-  }
+.work {
+  padding-top: 5vw;
+  width: 100%;
+  background-color: #131313;
+  position: relative;
+  padding-bottom: 10vw;
+}
 
-  .titlecont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .work i {
-    margin-top: 5rem;
-    display: flex;
-    color: white;
-    font-size: 3rem;
-    margin-right: 1rem;
-  }
-  .worktitle {
-    margin-top: 5rem;
-    color: white;
-    font-size: 3rem;
-    font-family: "Poppins";
-  }
+.work::after {
+  content: "";
+  display: block;
+  width: 80%;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  padding-bottom: 10vw;
+}
 
-  .popup {
-    margin-top: -1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
+.titlecont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .awstitle {
-    font-family: "Bebas Neue", sans-serif;
-    margin-top: 9rem;
-    margin-left: 20rem;
-    font-size: 3rem;
-    color: white;
-    grid-column: 1;
-    grid-row: 1;
-  }
+.worktitle {
+  margin-top: 4vw;
+  color: white;
+  font-size: 3.5vw;
+  font-family: "Lora", serif;
+}
 
-  .awstitle span {
-    font-family: "Poppins";
-    font-size: 2rem;
-  }
+.popup {
+  margin-top: -1vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
 
-  .bayertitle {
-    font-family: "Bebas Neue", sans-serif;
-    margin-top: 10rem;
-    margin-left: 5rem;
-    font-size: 3rem;
-    color: white;
-    grid-column: 2;
-    grid-row: 2;
-  }
+.awstitle {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 9vw;
+  margin-left: 12vw;
+  font-size: 2.8vw;
+  color: white;
+  grid-column: 1;
+  grid-row: 1;
+}
 
-  .bayertitle span {
-    font-family: "Poppins";
-    font-size: 2rem;
-  }
+.awstitle span {
+  font-family: "Poppins";
+  font-size: 2vw;
+}
 
-  .tivittitle {
-    font-family: "Bebas Neue", sans-serif;
-    margin-top: 10rem;
-    margin-left: 40rem;
-    font-size: 3rem;
-    color: white;
-    grid-column: 1;
-    grid-row: 3;
-  }
+.bayertitle {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 10.5vw; /* Use vw para margem superior */
+  margin-left: 3vw; /* Use vw para margem esquerda */
+  font-size: 2.8vw;
+  color: white;
+  grid-column: 2;
+  grid-row: 2;
+}
 
-  .tivittitle span {
-    font-family: "Poppins";
-    font-size: 2rem;
-  }
+.bayertitle span {
+  font-family: "Poppins";
+  font-size: 2vw; /* Use vw para dimensionar o tamanho da fonte responsivamente */
+}
 
-  .saudetitle {
-    font-family: "Bebas Neue", sans-serif;
-    margin-top: 10rem;
-    margin-left: 4rem;
-    font-size: 3rem;
-    color: white;
-    grid-column: 2;
-    grid-row: 4;
-  }
+.tivittitle {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 10vw; /* Use vw para margem superior */
+  margin-left: 30vw; /* Use vw para margem esquerda */
+  font-size: 2.8vw;
+  color: white;
+  grid-column: 1;
+  grid-row: 3;
+}
 
-  .saudetitle span {
-    font-family: "Poppins";
-    font-size: 2rem;
-  }
+.tivittitle span {
+  font-family: "Poppins";
+  font-size: 2vw; /* Use vw para dimensionar o tamanho da fonte responsivamente */
+}
 
-  .aws {
-    background-image: url("/public/img/aws.png");
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #203344;
-    width: 500px;
-    height: 200px;
-    grid-column: 2;
-    grid-row: 1;
-    border-radius: 6px;
-    margin-top: 8rem;
-    margin-left: 5rem;
-    transition: transform 0.5s ease;
-    cursor: pointer;
-  }
+.saudetitle {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 10vw; /* Use vw para margem superior */
+  margin-left: 3vw; /* Use vw para margem esquerda */
+  font-size: 2.8vw;
+  color: white;
+  grid-column: 2;
+  grid-row: 4;
+}
 
-  .aws:hover {
-    transform: scale(0.9);
-  }
+.saudetitle span {
+  font-family: "Poppins";
+  font-size: 2vw; /* Use vw para dimensionar o tamanho da fonte responsivamente */
+}
 
-  .bayer {
-    background-image: url("/public/img/bayer.jpg");
-    background-size: 99.9%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #e8f6f6;
-    width: 500px;
-    height: 200px;
-    grid-column: 1;
-    grid-row: 2;
-    border-radius: 6px;
-    margin-top: 8rem;
-    margin-left: 28rem;
-    transition: transform 0.5s ease;
-    cursor: pointer;
-  }
+.aws {
+  filter: grayscale(100%);
+  border: none;
+  background-image: url("/public/img/aws.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #203344;
+  width: 35vw;
+  height: 12vw;
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 6px;
+  margin-top: 8vw;
+  margin-left: 0vw;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
 
-  .bayer:hover {
-    transform: scale(0.9);
-  }
+.aws:hover {
+  transform: scale(0.9);
+  filter: grayscale(0%);
+}
 
-  .tivit {
-    background-image: url("/public/img/tivit.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #e8f6f6;
-    width: 500px;
-    height: 200px;
-    grid-column: 2;
-    grid-row: 3;
-    border-radius: 6px;
-    margin-top: 8rem;
-    margin-left: 5rem;
-    transition: transform 0.5s ease;
-    cursor: pointer;
-  }
-  .tivit:hover {
-    transform: scale(0.9);
-  }
+.bayer {
+  filter: grayscale(100%);
+  border: none;
+  background-image: url("/public/img/bayer.jpg");
+  background-size: 99.9%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #e8f6f6;
+  width: 35vw; /* Use vw para dimensionar a largura */
+  height: 12vw; /* Use vw para dimensionar a altura */
+  grid-column: 1;
+  grid-row: 2;
+  border-radius: 6px;
+  margin-top: 8vw; /* Use vw para margem superior */
+  margin-left: 16vw; /* Use vw para margem esquerda */
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
 
-  .saude {
-    background-image: url("/public/img/saude.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #e8f6f6;
-    width: 500px;
-    height: 200px;
-    grid-column: 1;
-    grid-row: 4;
-    border-radius: 6px;
-    margin-top: 8rem;
-    margin-left: 28rem;
-    transition: transform 0.5s ease;
-    cursor: pointer;
-  }
+.bayer:hover {
+  filter: grayscale(0%);
+  transform: scale(0.9);
+}
 
-  .saude:hover {
-    transform: scale(0.9);
-  }
+.tivit {
+  filter: grayscale(100%);
+  border: none;
+  background-image: url("/public/img/tivit.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #e8f6f6;
+  width: 35vw; /* Use vw para dimensionar a largura */
+  height: 12vw; /* Use vw para dimensionar a altura */
+  grid-column: 2;
+  grid-row: 3;
+  border-radius: 6px;
+  margin-top: 8vw; /* Use vw para margem superior */
+  margin-left: 1vw; /* Use vw para margem esquerda */
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
 
-  .hidden-header {
-    display: none;
-  }
+.tivit:hover {
+  filter: grayscale(0%);
+  transform: scale(0.9);
+}
+
+.saude {
+  filter: grayscale(100%);
+  border: none;
+  background-image: url("/public/img/saude.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e8f6f6;
+  width: 35vw; /* Use vw para dimensionar a largura */
+  height: 12vw; /* Use vw para dimensionar a altura */
+  grid-column: 1;
+  grid-row: 4;
+  border-radius: 6px;
+  margin-top: 8vw; /* Use vw para margem superior */
+  margin-left: 16vw; /* Use vw para margem esquerda */
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.saude:hover {
+  filter: grayscale(0%);
+  transform: scale(0.9);
+}
+
+.hidden-header {
+  display: none;
 }

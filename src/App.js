@@ -1,33 +1,5 @@
 import React, { useEffect } from "react";
 import { ativaLetra } from "./animation";
-import Carousel, { Card } from "./carousel"; // Importando Card do Carousel.js
-
-const cardData = [
-  {
-    title: "2019-2023",
-    content: "Computer Engineering Fiap",
-  },
-  {
-    title: "2023-2026",
-    content: "AWS Cloud Practitioner",
-  },
-  {
-    title: "2023-2026",
-    content: "AWS Partner: Accreditation",
-  },
-  {
-    title: "2023-2026",
-    content: "AWS Partner: SAP on AWS",
-  },
-  {
-    title: "2010-2011",
-    content: "Business Management Centro Paula Souza",
-  },
-  {
-    title: "2008-2009",
-    content: "Machining Technician Senai",
-  },
-];
 
 function App() {
   useEffect(() => {
@@ -78,7 +50,9 @@ function App() {
       </div>
 
       <section className="about" id="aboutMe">
-        <h2 className="hi">Hello I'm Roberto</h2>
+        <h2 className="hi">
+          Hello I'm <span>Roberto</span>
+        </h2>
         <p className="text1">
           I am looking for opportunities in the Software Development or Data
           Engineering field. I have experience in IT Business and FinOps, which
@@ -190,7 +164,6 @@ function App() {
 
       <section className="work" id="professional">
         <div className="titlecont">
-          <i class="fa-solid fa-briefcase"></i>
           <h1 className="worktitle">Work Experience</h1>
         </div>
         <div className="popup">
@@ -222,15 +195,17 @@ function App() {
 
       <section class="academic" id="academic">
         <div className="titlecont">
-          <i class="fa-solid fa-building-columns"></i>{" "}
           <h1 className="academictitle">Academic</h1>
         </div>
 
-        <Carousel>
-          {cardData.map((card, i) => (
-            <Card key={i} title={card.title} content={card.content} />
-          ))}
-        </Carousel>
+        <section className="skillslang">
+          <div className="skills">
+            <h1>Skills</h1>
+          </div>
+          <div className="language">
+            <h1>Language Proficiency</h1>
+          </div>
+        </section>
       </section>
     </body>
   );

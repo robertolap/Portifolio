@@ -1,100 +1,117 @@
-@media (min-width: 1900px) {
-  .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    background-color: #131313;
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  background-color: #131313;
+  padding-bottom: 6rem;
+  position: relative;
+}
+
+.about::after {
+  content: "";
+  display: block;
+  width: 80%;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  padding-bottom: 10rem;
+}
+
+.hi {
+  grid-row: 1;
+  grid-column: 1;
+  font-size: 6vw;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  margin-left: 10vw;
+  margin-top: 8rem;
+}
+
+.hi span {
+  font-size: 5.5vw;
+  font-family: "Lora", serif;
+}
+
+.text1 {
+  text-align: left;
+  grid-row: 2;
+  grid-column: 1;
+  font-size: 1.9vw;
+  font-family: "Poppins";
+  color: white;
+  margin-left: 10vw;
+  margin-top: -20vw;
+}
+
+.contact {
+  grid-row: 3;
+  grid-column: 1;
+  font-size: 2vw;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: overline;
+  margin-top: 5rem;
+  margin-left: 10vw;
+}
+
+.icons {
+  margin-left: 8vw;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+  grid-template-columns: 1;
+  grid-row: 4;
+}
+
+.icons a i {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 3vw;
+  margin-left: 2.5vw;
+}
+
+.icons a i:hover {
+  transform: scale(1.5);
+  color: #c0c0c0;
+}
+
+.loader2 {
+  grid-row: 1;
+  grid-column: 2;
+  margin-left: 10vw; /* Use vw para margens também */
+  margin-top: 12vw; /* Use vw para margens também */
+  width: 32vw; /* Use vw para dimensionar o elemento responsivamente */
+  height: 32vw; /* Use vw para dimensionar o elemento responsivamente */
+}
+
+.loader2 path {
+  stroke: #ffffff;
+  stroke-width: 0.6px;
+  animation: dashArray 8s ease-in-out infinite, dashOffset 8s linear infinite;
+}
+
+@keyframes dashArray {
+  0% {
+    stroke-dasharray: 0 1 359 0;
   }
 
-  .hi {
-    grid-row: 1;
-    grid-column: 1;
-    font-size: 6rem;
-    font-family: "Bebas Neue", sans-serif;
-    color: white;
-    margin-left: 15rem;
-    margin-top: 6rem;
+  50% {
+    stroke-dasharray: 0 359 1 0;
   }
 
-  .text1 {
-    grid-row: 2;
-    grid-column: 1;
-    font-size: 2rem;
-    font-family: "Poppins";
-    color: white;
-    margin-left: 15rem;
-    margin-top: -28rem;
+  100% {
+    stroke-dasharray: 359 1 0 0;
+  }
+}
+
+@keyframes dashOffset {
+  0% {
+    stroke-dashoffset: 365;
   }
 
-  .contact {
-    grid-row: 3;
-    grid-column: 1;
-    font-size: 2rem;
-    font-family: "Poppins";
-    font-weight: 500;
-    color: #ffffff;
-    text-decoration: underline;
-    margin-top: -6rem;
-    margin-left: 15rem;
-  }
-
-  .icons {
-    margin-left: 12rem;
-    margin-top: -2rem;
-    margin-bottom: 3rem;
-    display: inline-block;
-    grid-template-columns: 1; /* Duas colunas automáticas */
-    grid-row: 4; /* Define a linha onde os ícones devem estar */
-  }
-
-  .icons a i {
-    color: #ffffff;
-    display: inline-block;
-    font-size: 3rem;
-    margin-left: 4rem;
-  }
-
-  .icons a i:hover {
-    transform: scale(1.5);
-    color: #c0c0c0;
-  }
-
-  .loader2 {
-    grid-row: 1;
-    grid-column: 2;
-    margin-left: 10rem;
-    margin-top: 10rem;
-    width: 32em;
-    height: 32em;
-  }
-
-  .loader2 path {
-    stroke: #ffffff;
-    stroke-width: 0.6px;
-    animation: dashArray 8s ease-in-out infinite, dashOffset 8s linear infinite;
-  }
-
-  @keyframes dashArray {
-    0% {
-      stroke-dasharray: 0 1 359 0;
-    }
-
-    50% {
-      stroke-dasharray: 0 359 1 0;
-    }
-
-    100% {
-      stroke-dasharray: 359 1 0 0;
-    }
-  }
-
-  @keyframes dashOffset {
-    0% {
-      stroke-dashoffset: 365;
-    }
-
-    100% {
-      stroke-dashoffset: 5;
-    }
+  100% {
+    stroke-dashoffset: 5;
   }
 }
