@@ -1,5 +1,4 @@
 .academic {
-  padding-top: 3vw;
   width: 100%;
   background-color: #131313;
 }
@@ -15,4 +14,52 @@
   color: white;
   font-size: 3.5vw;
   font-family: "Lora", serif;
+}
+
+.carouselcont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 7vw;
+}
+
+.educationtitle {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3vw; /* Use vw para dimensionar o tamanho da fonte responsivamente */
+  margin-bottom: vw;
+}
+
+.edu {
+  display: grid;
+  width: 80%;
+  margin-left: 5vw;
+}
+
+.edu h3 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.8vw;
+}
+
+.edu p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.6vw;
+}
+.edu span {
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.4vw;
+}
+
+.carousel-slide {
+  padding: 2.3vw;
+}
+
+.carousel .control-dots .dot {
+  width: 0.8vw;
+  height: 0.8vw; /* Ajuste o tamanho vertical de cada control dot conforme necessário */
+  /* Outros estilos que você deseja aplicar a cada control dot */
 }

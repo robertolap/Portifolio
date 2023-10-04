@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { ativaLetra } from "./animation";
+import { EducationCarousel, CertificationCarousel } from "./carouseledu";
 
 function App() {
   useEffect(() => {
@@ -37,7 +38,7 @@ function App() {
       </header>
 
       <div className="backgroundimage">
-        <h2 className="hello">Hi There I'm a </h2>
+        <h2 className="hello">Welcome, I'm a </h2>
         <h1 className="front">Front-End</h1>
         <h1 className="developer">Developer</h1>
         <div className="introback">
@@ -51,7 +52,7 @@ function App() {
 
       <section className="about" id="aboutMe">
         <h2 className="hi">
-          Hello I'm <span>Roberto</span>
+          I'm<br></br> <span>Roberto</span>
         </h2>
         <p className="text1">
           I am looking for opportunities in the Software Development or Data
@@ -168,7 +169,7 @@ function App() {
         </div>
         <div className="popup">
           <h2 className="awstitle">
-            Migrations and Cloud Economics Latam <br></br>
+            Migrations and Cloud<br></br> Economics Latam <br></br>
             <span>08/2021 – 08/2023</span>
           </h2>
           <button className="aws" id="openModalBtn"></button>
@@ -193,19 +194,23 @@ function App() {
         </div>
       </section>
 
-      <section class="academic" id="academic">
+      <section className="academic" id="academic">
         <div className="titlecont">
           <h1 className="academictitle">Academic</h1>
         </div>
+        <div className="carouselcont">
+          <EducationCarousel />
+          <CertificationCarousel />
+        </div>
+      </section>
 
-        <section className="skillslang">
-          <div className="skills">
-            <h1>Skills</h1>
-          </div>
-          <div className="language">
-            <h1>Language Proficiency</h1>
-          </div>
-        </section>
+      <section className="skillslang">
+        <div className="skills">
+          <h1>Skills</h1>
+        </div>
+        <div className="language">
+          <h1>Language Proficiency</h1>
+        </div>
       </section>
     </body>
   );

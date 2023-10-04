@@ -40,7 +40,7 @@
 .awstitle {
   font-family: "Bebas Neue", sans-serif;
   margin-top: 9vw;
-  margin-left: 12vw;
+  margin-left: 25vw;
   font-size: 2.8vw;
   color: white;
   grid-column: 1;
@@ -55,7 +55,7 @@
 .bayertitle {
   font-family: "Bebas Neue", sans-serif;
   margin-top: 10.5vw; /* Use vw para margem superior */
-  margin-left: 3vw; /* Use vw para margem esquerda */
+  margin-left: 2vw; /* Use vw para margem esquerda */
   font-size: 2.8vw;
   color: white;
   grid-column: 2;
@@ -85,7 +85,7 @@
 .saudetitle {
   font-family: "Bebas Neue", sans-serif;
   margin-top: 10vw; /* Use vw para margem superior */
-  margin-left: 3vw; /* Use vw para margem esquerda */
+  margin-left: 2vw; /* Use vw para margem esquerda */
   font-size: 2.8vw;
   color: white;
   grid-column: 2;
@@ -105,7 +105,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #203344;
-  width: 35vw;
+  width: 30vw;
   height: 12vw;
   grid-column: 2;
   grid-row: 1;
@@ -129,13 +129,13 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #e8f6f6;
-  width: 35vw; /* Use vw para dimensionar a largura */
+  width: 30vw; /* Use vw para dimensionar a largura */
   height: 12vw; /* Use vw para dimensionar a altura */
   grid-column: 1;
   grid-row: 2;
   border-radius: 6px;
   margin-top: 8vw; /* Use vw para margem superior */
-  margin-left: 16vw; /* Use vw para margem esquerda */
+  margin-left: 18vw; /* Use vw para margem esquerda */
   transition: transform 0.5s ease;
   cursor: pointer;
 }
@@ -153,7 +153,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #e8f6f6;
-  width: 35vw; /* Use vw para dimensionar a largura */
+  width: 30vw; /* Use vw para dimensionar a largura */
   height: 12vw; /* Use vw para dimensionar a altura */
   grid-column: 2;
   grid-row: 3;
@@ -176,13 +176,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #e8f6f6;
-  width: 35vw; /* Use vw para dimensionar a largura */
+  width: 30vw; /* Use vw para dimensionar a largura */
   height: 12vw; /* Use vw para dimensionar a altura */
   grid-column: 1;
   grid-row: 4;
   border-radius: 6px;
   margin-top: 8vw; /* Use vw para margem superior */
-  margin-left: 16vw; /* Use vw para margem esquerda */
+  margin-left: 18vw; /* Use vw para margem esquerda */
   transition: transform 0.5s ease;
   cursor: pointer;
 }
