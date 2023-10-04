@@ -1,6 +1,10 @@
 import React, { useEffect } from "react";
-import { ativaLetra } from "./animation";
-import { EducationCarousel, CertificationCarousel } from "./carouseledu";
+
+import {
+  EducationCarousel,
+  CertificationCarousel,
+  ativaLetra,
+} from "./animation";
 
 function App() {
   useEffect(() => {
