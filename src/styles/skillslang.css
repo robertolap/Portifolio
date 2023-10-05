@@ -2,22 +2,51 @@
   place-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   background-color: #131313;
-}
-
-.skill {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .skills h1 {
   grid-column: 1;
   grid-row: 1;
-  margin-top: 5vw;
+  margin-top: 10vw;
+  margin-left: 12vw;
   color: white;
   font-size: 3vw;
   font-family: "Bebas Neue", sans-serif;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.card {
+  filter: grayscale(100%);
+  margin-left: 3vw;
+  margin-top: 4vw;
+  max-width: 6vw;
+  transition: all 0.15s linear;
+  transform-origin: center center;
+}
+
+.card img {
+  max-width: 95%;
+  height: auto;
+}
+.card h2 {
+  margin-top: 0.5vw;
+  margin-left: vw;
+  font-family: "Poppins";
+  color: white;
+  font-size: 1vw;
+}
+
+.card:hover {
+  max-width: 6vw;
+  filter: grayscale(0%);
+  transform: rotateX(var(--x-rotation, 90)) rotateY(var(--y-rotation, 30));
+  filter: brightness(var(--brightness, 1));
 }
 
 .language h1 {

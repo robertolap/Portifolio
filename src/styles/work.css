@@ -100,7 +100,7 @@
 .aws {
   filter: grayscale(100%);
   border: none;
-  background-image: url("/public/img/aws.png");
+  background-image: url("/src/img/aws.png");
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -124,7 +124,7 @@
 .bayer {
   filter: grayscale(100%);
   border: none;
-  background-image: url("/public/img/bayer.jpg");
+  background-image: url("/src/img/bayer.jpg");
   background-size: 99.9%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -148,7 +148,7 @@
 .tivit {
   filter: grayscale(100%);
   border: none;
-  background-image: url("/public/img/tivit.png");
+  background-image: url("/src/img/tivit.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -172,7 +172,7 @@
 .saude {
   filter: grayscale(100%);
   border: none;
-  background-image: url("/public/img/saude.jpg");
+  background-image: url("/src/img/saude.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #e8f6f6;

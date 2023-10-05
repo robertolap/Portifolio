@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-
 import {
   EducationCarousel,
   CertificationCarousel,
   ativaLetra,
 } from "./animation";
+import Card from "./animation";
 
 function App() {
   useEffect(() => {
@@ -211,6 +211,7 @@ function App() {
       <section className="skillslang">
         <div className="skills">
           <h1>Skills</h1>
+          <Card />
         </div>
         <div className="language">
           <h1>Language Proficiency</h1>
