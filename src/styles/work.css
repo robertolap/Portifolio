@@ -54,8 +54,8 @@
 
 .bayertitle {
   font-family: "Bebas Neue", sans-serif;
-  margin-top: 10.5vw; /* Use vw para margem superior */
-  margin-left: 2vw; /* Use vw para margem esquerda */
+  margin-top: 10.5vw;
+  margin-left: 2vw;
   font-size: 2.8vw;
   color: white;
   grid-column: 2;
@@ -64,13 +64,13 @@
 
 .bayertitle span {
   font-family: "Poppins";
-  font-size: 2vw; /* Use vw para dimensionar o tamanho da fonte responsivamente */
+  font-size: 2vw;
 }
 
 .tivittitle {
   font-family: "Bebas Neue", sans-serif;
-  margin-top: 10vw; /* Use vw para margem superior */
-  margin-left: 30vw; /* Use vw para margem esquerda */
+  margin-top: 10vw;
+  margin-left: 30vw;
   font-size: 2.8vw;
   color: white;
   grid-column: 1;
@@ -79,13 +79,13 @@
 
 .tivittitle span {
   font-family: "Poppins";
-  font-size: 2vw; /* Use vw para dimensionar o tamanho da fonte responsivamente */
+  font-size: 2vw;
 }
 
 .saudetitle {
   font-family: "Bebas Neue", sans-serif;
-  margin-top: 10vw; /* Use vw para margem superior */
-  margin-left: 2vw; /* Use vw para margem esquerda */
+  margin-top: 10vw;
+  margin-left: 2vw;
   font-size: 2.8vw;
   color: white;
   grid-column: 2;
@@ -94,7 +94,7 @@
 
 .saudetitle span {
   font-family: "Poppins";
-  font-size: 2vw; /* Use vw para dimensionar o tamanho da fonte responsivamente */
+  font-size: 2vw;
 }
 
 .aws {
@@ -129,13 +129,13 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #e8f6f6;
-  width: 30vw; /* Use vw para dimensionar a largura */
-  height: 12vw; /* Use vw para dimensionar a altura */
+  width: 30vw;
+  height: 12vw;
   grid-column: 1;
   grid-row: 2;
   border-radius: 6px;
-  margin-top: 8vw; /* Use vw para margem superior */
-  margin-left: 18vw; /* Use vw para margem esquerda */
+  margin-top: 8vw;
+  margin-left: 18vw;
   transition: transform 0.5s ease;
   cursor: pointer;
 }
@@ -153,13 +153,13 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #e8f6f6;
-  width: 30vw; /* Use vw para dimensionar a largura */
-  height: 12vw; /* Use vw para dimensionar a altura */
+  width: 30vw;
+  height: 12vw;
   grid-column: 2;
   grid-row: 3;
   border-radius: 6px;
-  margin-top: 8vw; /* Use vw para margem superior */
-  margin-left: 1vw; /* Use vw para margem esquerda */
+  margin-top: 8vw;
+  margin-left: 1vw;
   transition: transform 0.5s ease;
   cursor: pointer;
 }
@@ -176,13 +176,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #e8f6f6;
-  width: 30vw; /* Use vw para dimensionar a largura */
-  height: 12vw; /* Use vw para dimensionar a altura */
+  width: 30vw;
+  height: 12vw;
   grid-column: 1;
   grid-row: 4;
   border-radius: 6px;
-  margin-top: 8vw; /* Use vw para margem superior */
-  margin-left: 18vw; /* Use vw para margem esquerda */
+  margin-top: 8vw;
+  margin-left: 18vw;
   transition: transform 0.5s ease;
   cursor: pointer;
 }

@@ -1,0 +1,7 @@
+.college {
+  height: 100vh;
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #131313;
+}

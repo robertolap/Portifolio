@@ -27,7 +27,7 @@
   justify-content: center;
   color: white;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3vw; /* Use vw para dimensionar o tamanho da fonte responsivamente */
+  font-size: 3vw;
   margin-bottom: vw;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .edu h3 {
-  color: white;
+  color: #f2c27e;
   font-family: "Poppins";
   font-size: 1.8vw;
 }
@@ -60,6 +60,5 @@
 
 .carousel .control-dots .dot {
   width: 0.8vw;
-  height: 0.8vw; /* Ajuste o tamanho vertical de cada control dot conforme necessário */
-  /* Outros estilos que você deseja aplicar a cada control dot */
+  height: 0.8vw;
 }

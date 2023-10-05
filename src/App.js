@@ -5,6 +5,10 @@ import {
   ativaLetra,
 } from "./animation";
 import Card from "./animation";
+import china from "../src/img/china.png";
+import eua from "../src/img/eua.png";
+import brasil from "../src/img/brasil.png";
+import spain from "../src/img/spain.png";
 
 function App() {
   useEffect(() => {
@@ -215,8 +219,34 @@ function App() {
         </div>
         <div className="language">
           <h1>Language Proficiency</h1>
+          <div>
+            <img src={eua} alt="eua"></img>
+            <h1 className="titlelan">
+              English -<span>Advanced</span>
+            </h1>
+          </div>
+          <div>
+            <img src={china} alt="china"></img>
+            <h1 className="titlelan">
+              Mandarin -<span>Basic</span>
+            </h1>
+          </div>
+          <div>
+            <img src={spain} alt="spain"></img>
+            <h1 className="titlelan">
+              Spanish -<span>Basic</span>
+            </h1>
+          </div>
+          <div>
+            <img src={brasil} alt="brasil"></img>
+            <h1 className="titlelan">
+              Portuguese -<span>Native</span>
+            </h1>
+          </div>
         </div>
       </section>
+
+      <section className="college"></section>
     </body>
   );
 }

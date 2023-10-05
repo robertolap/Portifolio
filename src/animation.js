@@ -8,6 +8,7 @@ import html from "./img/html.png";
 import css from "./img/css.png";
 import sql from "./img/sql.png";
 
+//digitando
 export function ativaLetra(elemento) {
   const arrTexto = elemento.innerHTML.split("");
   elemento.innerHTML = "";
@@ -18,6 +19,7 @@ export function ativaLetra(elemento) {
   });
 }
 
+//carousel
 const EducationCarousel = () => {
   return (
     <div className="resume_education">
@@ -88,6 +90,7 @@ const CertificationCarousel = () => {
 
 export { EducationCarousel, CertificationCarousel };
 
+//icons skills
 const Card = () => {
   const cardRef = useRef(".card");
 

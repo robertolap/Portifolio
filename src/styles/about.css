@@ -11,7 +11,7 @@
   content: "";
   display: block;
   width: 80%;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ffffff;
   position: absolute;
   bottom: 0;
   left: 10%;
@@ -32,6 +32,7 @@
   font-size: 5vw;
   font-family: "Lora", serif;
   position: relative;
+  color: #f2c27e;
 }
 
 .hi span:after {
@@ -39,16 +40,16 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -1px; /* Ajuste a posição vertical do sublinhado conforme desejado */
+  bottom: -1px;
   width: 0vw;
-  height: 4px; /* Ajuste a espessura do sublinhado conforme desejado */
-  background-color: #ffffff; /* Cor do sublinhado */
+  height: 4px;
+  background-color: #f2c27e;
   transition: width 0.7s ease 0s, left 0.3s ease 0s;
 }
 
 .hi span:hover:after {
-  width: 100%; /* Quando o mouse passar sobre o elemento, expandir o sublinhado */
-  left: 0; /* Defina a posição inicial do sublinhado quando o mouse passa sobre o elemento */
+  width: 100%;
+  left: 0;
 }
 
 .text1 {
@@ -93,16 +94,16 @@
 
 .icons a i:hover {
   transform: scale(1.5);
-  color: #c0c0c0;
+  color: #f2c27e;
 }
 
 .loader2 {
   grid-row: 1;
   grid-column: 2;
-  margin-left: 11vw; /* Use vw para margens também */
-  margin-top: 16vw; /* Use vw para margens também */
-  width: 30vw; /* Use vw para dimensionar o elemento responsivamente */
-  height: 30vw; /* Use vw para dimensionar o elemento responsivamente */
+  margin-left: 11vw;
+  margin-top: 16vw;
+  width: 30vw;
+  height: 30vw;
 }
 
 .loader2 path {

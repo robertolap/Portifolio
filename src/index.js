@@ -8,6 +8,7 @@ import "./styles/about.css";
 import "./styles/work.css";
 import "./styles/academic.css";
 import "./styles/skillslang.css";
+import "./styles/college.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
