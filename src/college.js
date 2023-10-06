@@ -6,7 +6,7 @@ import raizen from "./img/raizen.png";
 
 const College = () => {
   return (
-    <section className="college">
+    <section className="college" id="projects">
       <h1>College Projects</h1>
       <div class="timeline">
         <ul>

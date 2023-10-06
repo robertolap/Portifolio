@@ -1,10 +1,10 @@
 .college {
   width: 100%;
-  height: 450vh;
-  background-image: url("/src/img/fundo.jpeg");
+  height: 340vh;
+  background-image: url("/src/img/fundo.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 40vw;
+  padding-top: 28vw;
 }
 
 .college h1 {
@@ -12,7 +12,7 @@
   font-size: 3vw;
   font-family: "Lora", serif;
   text-align: center;
-  padding-bottom: 4vw;
+  padding-bottom: 3vw;
 }
 
 .timeline {
@@ -26,7 +26,7 @@
   position: absolute;
   left: 50%;
   width: 0.15vw;
-  height: 320vh;
+  height: 220vh;
   background: #130d0d;
 }
 
@@ -47,15 +47,18 @@
 }
 
 .content h2 {
+  text-decoration: underline;
   font-size: 2vw;
   font-family: "Bebas Neue", sans-serif;
+  padding-bottom: 1vw;
 }
 
 .content p {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1.1vw;
   font-weight: 500;
   font-family: "Poppins";
+  padding-bottom: 2vw;
 }
 .timeline ul {
   margin: 0vw;
@@ -79,26 +82,28 @@
   clear: both;
 }
 .timeline ul li:nth-child(odd)::before {
+  border: 2px solid #000;
   content: "";
   position: absolute;
-  width: 0.8vw;
-  height: 0.8vw;
+  width: 1vw;
+  height: 1vw;
   background: #f2c27e;
   border-radius: 50%;
   box-shadow: 0 0 0 0.1vw rgba(255, 155, 112, 0.2);
-  top: 50px;
-  right: -9px;
+  top: 80px;
+  right: -15px;
 }
 .timeline ul li:nth-child(even)::before {
+  border: 2px solid #000;
   content: "";
   position: absolute;
-  width: 0.8vw;
-  height: 0.8vw;
+  width: 1vw;
+  height: 1vw;
   background: #f2c27e;
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(255, 155, 112, 0.2);
-  top: 52px;
-  left: -6px;
+  top: 78px;
+  left: -10px;
 }
 li:nth-child(odd) .time {
   position: absolute;

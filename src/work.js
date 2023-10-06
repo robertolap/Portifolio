@@ -1,4 +1,4 @@
-import { React } from "react";
+import React from "react";
 
 const Work = () => {
   return (
@@ -11,25 +11,25 @@ const Work = () => {
           Migrations and Cloud<br></br> Economics Latam <br></br>
           <span>08/2021 – 08/2023</span>
         </h2>
-        <button className="aws" id="openModalBtn"></button>
+        <button className="aws" id="openmodal"></button>
 
         <h2 className="bayertitle">
           IT Businness Experience <br></br>
           <span>02/2021 – 08/2021</span>
         </h2>
-        <button className="bayer" id="openModalBtn"></button>
+        <button className="bayer" id="openmodal"></button>
 
         <h2 className="tivittitle">
           Digital Consulting <br></br>
           <span>10/2019 – 12/2020</span>
         </h2>
-        <button className="tivit" id="openModalBtn"></button>
+        <button className="tivit" id="openmodal"></button>
 
         <h2 className="saudetitle">
           Optical Supervisor<br></br>
           <span>Oct 2013 - May 2019</span>
         </h2>
-        <button className="saude" id="openModalBtn"></button>
+        <button className="saude" id="openmodal"></button>
       </div>
     </section>
   );
