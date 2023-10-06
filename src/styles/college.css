@@ -1,7 +1,7 @@
 .college {
-  height: 100vh;
-  place-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #131313;
+  width: 100%;
+  height: 130vh;
+  background-image: url("/src/img/fundo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

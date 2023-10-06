@@ -1,9 +1,9 @@
 .skillslang {
+  height: 90vh;
   place-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #131313;
-  border-bottom: 1px solid #ccc;
 }
 
 .skills h1 {

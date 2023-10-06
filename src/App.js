@@ -60,7 +60,8 @@ function App() {
 
       <section className="about" id="aboutMe">
         <h2 className="hi">
-          I'm<br></br> <span>Roberto</span>
+          I'm<br></br>
+          <span>Roberto</span>
         </h2>
         <p className="text1">
           I am looking for opportunities in the Software Development or Data
