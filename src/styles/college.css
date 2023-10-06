@@ -1,7 +1,137 @@
 .college {
   width: 100%;
-  height: 130vh;
+  height: 450vh;
   background-image: url("/src/img/fundo.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 30vw;
+}
+
+.college h1 {
+  color: rgb(0, 0, 0);
+  font-size: 3vw;
+  font-family: "Lora", serif;
+  text-align: center;
+  padding-bottom: 4vw;
+}
+
+.timeline {
+  position: relative;
+  margin: 2vw auto 50vw;
+  max-width: 90%;
+  padding: 0;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 0.15vw;
+  height: 320vh;
+  background: #130d0d;
+}
+
+.timeline img {
+  width: 10vw;
+  height: 6vw;
+  border-radius: 10px;
+  margin-bottom: 1vw;
+}
+
+.time h3 {
+  font-size: 2vw;
+  font-family: "Lora", serif;
+  border-radius: 10px;
+  padding: 20px 50px;
+  background-color: #f2c27e;
+  display: inline-block;
+}
+
+.content h2 {
+  font-size: 2vw;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.content p {
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+.timeline ul {
+  margin: 1vw;
+  padding: 0;
+}
+.timeline ul li {
+  list-style: none;
+  position: relative;
+  max-width: 50%;
+  padding: 1vw 2vw;
+  box-sizing: border-box;
+}
+.timeline ul li:nth-child(odd) {
+  float: left;
+  text-align: right;
+  clear: both;
+}
+.timeline ul li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+.timeline ul li:nth-child(odd)::before {
+  content: "";
+  position: absolute;
+  width: 0.8vw;
+  height: 0.8vw;
+  background: #f2c27e;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.1vw rgba(255, 155, 112, 0.2);
+  top: 50px;
+  right: -9px;
+}
+.timeline ul li:nth-child(even)::before {
+  content: "";
+  position: absolute;
+  width: 0.8vw;
+  height: 0.8vw;
+  background: #f2c27e;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(255, 155, 112, 0.2);
+  top: 52px;
+  left: -6px;
+}
+li:nth-child(odd) .time {
+  position: absolute;
+  top: 37px;
+  right: -25%;
+}
+li:nth-child(even) .time {
+  position: absolute;
+  top: 39px;
+  left: -30%;
+}
+
+@media (max-width: 1200px) {
+  li:nth-child(odd) .time {
+    position: absolute;
+    top: 37px;
+    right: -30%;
+  }
+  li:nth-child(even) .time {
+    position: absolute;
+    top: 39px;
+    left: -35%;
+  }
+}
+@media (max-width: 992px) {
+  li:nth-child(odd) .time {
+    position: absolute;
+    top: 37px;
+    right: -33%;
+  }
+  li:nth-child(even) .time {
+    position: absolute;
+    top: 39px;
+    left: -38%;
+  }
 }

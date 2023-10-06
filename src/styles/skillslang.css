@@ -1,21 +1,30 @@
 .skillslang {
-  height: 90vh;
+  height: 80vh;
   place-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #131313;
 }
 
-.skills h1 {
+.skillslang .sk {
   grid-column: 1;
-  grid-row: 1;
-  margin-left: 12vw;
   color: white;
   font-size: 3vw;
+  margin-bottom: 6vw;
+
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.skillslang .lg {
+  grid-column: 2;
+  color: white;
+  font-size: 3vw;
+  margin-bottom: 6vw;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .card-container {
+  margin-top: -15vw;
   display: grid;
   grid-column: 1;
   grid-template-columns: 1fr 1fr 1fr;
@@ -25,7 +34,7 @@
 .card {
   filter: grayscale(100%);
   margin-left: 3vw;
-  margin-top: 4vw;
+  margin-top: 3vw;
   max-width: 6vw;
   transition: all 0.15s linear;
   transform-origin: center center;
@@ -37,7 +46,6 @@
 }
 .card h2 {
   margin-top: 0.5vw;
-  margin-left: vw;
   font-family: "Poppins";
   color: white;
   font-size: 1vw;
@@ -50,16 +58,17 @@
   filter: brightness(var(--brightness, 1));
 }
 
+.language {
+  margin-top: -12vw;
+}
+
 .language h1 {
-  display: inline-block;
-  vertical-align: middle;
   margin-bottom: 2vw;
   color: white;
   font-size: 3vw;
   font-family: "Bebas Neue", sans-serif;
   display: grid;
   grid-column: 2;
-  grid-row: 1;
 }
 
 .language .titlelan {
