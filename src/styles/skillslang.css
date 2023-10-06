@@ -1,5 +1,5 @@
 .skillslang {
-  height: 80vh;
+  height: 50vh;
   place-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -10,21 +10,24 @@
   grid-column: 1;
   color: white;
   font-size: 3vw;
-  margin-bottom: 6vw;
+  margin-top: 4vw;
+  margin-bottom: 8vw;
 
   font-family: "Bebas Neue", sans-serif;
 }
 
 .skillslang .lg {
+  margin-top: 4vw;
+
   grid-column: 2;
   color: white;
   font-size: 3vw;
-  margin-bottom: 6vw;
+  margin-bottom: 8vw;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .card-container {
-  margin-top: -15vw;
+  margin-top: -8vw;
   display: grid;
   grid-column: 1;
   grid-template-columns: 1fr 1fr 1fr;
@@ -59,7 +62,7 @@
 }
 
 .language {
-  margin-top: -12vw;
+  margin-top: -6vw;
 }
 
 .language h1 {
