@@ -16,13 +16,13 @@ const Header = () => {
           <a href="#aboutMe">About Me</a>
         </li>
         <li>
-          <a href="#professional">Work Experience</a>
+          <a href="#professional">Work</a>
         </li>
         <li>
           <a href="#academic">Academic</a>
         </li>
         <li>
-          <a href="#projects">College Projects</a>
+          <a href="#projects">Projects</a>
         </li>
       </ul>
     </nav>
