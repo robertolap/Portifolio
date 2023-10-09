@@ -12,17 +12,11 @@ function App() {
       <header>
         <Header />
       </header>
-
       <Cover />
-
       <About />
-
       <Work />
-
       <Academic />
-
       <Skillslang />
-
       <College />
     </>
   );
