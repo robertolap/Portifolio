@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  background-color: #131313;
+  position: relative;
+}
+
+.footer::after {
+  content: "";
+  display: block;
+  width: 90%;
+  left: 5%;
+  border-top: 1px solid #ffffff;
+  position: absolute;
+}
+
+.footertitle {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  margin-left: 8vw;
+}
+
+.iconsfooter {
+  display: flex; /* Adicione display: flex para alinhar os elementos internos */
+  justify-content: center; /* Isso centralizará os elementos horizontalmente */
+  margin-left: 24vw;
+  margin-top: 1.5vw; /* Isso centralizará os elementos verticalmente */
+}
+
+.iconsfooter a i {
+  font-size: 1.5vw;
+  color: white;
+  margin-left: 1vw;
+}
+
+.iconsfooter a i:hover {
+  transform: scale(1.5);
+  color: #f2c27e;
+}
+
+.frontend {
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  font-size: 2vw;
+  margin-top: 1vw;
+  margin-left: 30vw;
+}
