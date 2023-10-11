@@ -73,9 +73,42 @@
   border-radius: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 350px) {
   .backgroundimage {
     width: 100vw;
+    height: 80vh;
+  }
+
+  .hello {
+    font-size: 2rem;
+    margin-left: 1rem;
+    padding-top: 8rem;
+  }
+
+  .front {
+    margin-left: 1rem;
+    font-size: 4rem;
+    margin-top: 0rem;
+  }
+  .developer {
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-top: -1rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+    width: 85%;
+  }
+}
+
+@media (max-width: 425px) {
+  .backgroundimage {
+    width: 100vw;
+    height: 80vh;
   }
 
   .hello {

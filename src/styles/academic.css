@@ -61,3 +61,83 @@
   width: 0.8vw;
   height: 0.8vw;
 }
+
+@media (max-width: 320px) {
+  .academictitle {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .carouselcont {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+  }
+
+  .educationtitle {
+    font-size: 2.5rem;
+  }
+
+  .edu {
+    width: 80%;
+    margin-left: 2rem;
+  }
+
+  .edu h3 {
+    font-size: 1.8rem;
+  }
+
+  .edu p {
+    font-size: 1.6rem;
+  }
+  .edu span {
+    font-size: 1.2rem;
+  }
+
+  .carousel-slide {
+    padding: 12vw;
+  }
+
+  .carousel .control-dots .dot {
+    width: 4vw;
+    height: 4vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .academictitle {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .carouselcont {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+  }
+
+  .educationtitle {
+    font-size: 2.5rem;
+  }
+
+  .edu {
+    width: 80%;
+    margin-left: 2rem;
+  }
+
+  .edu h3 {
+    font-size: 1.8rem;
+  }
+
+  .edu p {
+    font-size: 1.6rem;
+  }
+  .edu span {
+    font-size: 1.2rem;
+  }
+
+  .carousel-slide {
+    padding: 12vw;
+  }
+
+  .carousel .control-dots .dot {
+    width: 4vw;
+    height: 4vw;
+  }
+}

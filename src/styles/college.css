@@ -113,27 +113,14 @@ li:nth-child(even) .time {
   left: -30%;
 }
 
-@media (max-width: 1200px) {
-  li:nth-child(odd) .time {
-    position: absolute;
-    top: 37px;
-    right: -30%;
-  }
-  li:nth-child(even) .time {
-    position: absolute;
-    top: 39px;
-    left: -35%;
+@media (max-width: 350px) {
+  .college {
+    display: none;
   }
 }
-@media (max-width: 992px) {
-  li:nth-child(odd) .time {
-    position: absolute;
-    top: 37px;
-    right: -33%;
-  }
-  li:nth-child(even) .time {
-    position: absolute;
-    top: 39px;
-    left: -38%;
+
+@media (max-width: 425px) {
+  .college {
+    display: none;
   }
 }

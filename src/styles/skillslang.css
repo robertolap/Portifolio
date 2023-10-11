@@ -12,13 +12,11 @@
   font-size: 4rem;
   margin-top: 6rem;
   margin-bottom: 10rem;
-
   font-family: "Bebas Neue", sans-serif;
 }
 
 .skillslang .lg {
   margin-top: 4vw;
-
   grid-column: 2;
   color: white;
   font-size: 4rem;
@@ -93,4 +91,146 @@
 .language img {
   vertical-align: middle;
   width: 18%;
+}
+
+@media (max-width: 320px) {
+  .skillslang {
+    width: 100%;
+    height: 110vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1;
+  }
+
+  .skillslang .sk {
+    margin-top: 20rem;
+    font-size: 2.6rem;
+    margin-bottom: 0rem;
+  }
+
+  .skillslang .lg {
+    font-size: 2.6rem;
+    margin-bottom: 0rem;
+    margin-top: -2rem;
+  }
+
+  .card-container {
+    margin-left: -2rem;
+    margin-top: -55rem;
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    max-width: 2rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    max-width: 3rem;
+  }
+
+  .card:hover {
+    max-width: 3em;
+  }
+  .card h2 {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .language {
+    margin-top: -18rem;
+    margin-left: 1rem;
+  }
+
+  .language h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    display: grid;
+    grid-column: 1;
+  }
+
+  .language .titlelan {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-left: rem;
+    margin-top: rem;
+  }
+
+  .language span {
+    font-size: 1.4rem;
+  }
+
+  .language img {
+    width: 15%;
+  }
+}
+
+@media (max-width: 425px) {
+  .skillslang {
+    width: 100%;
+    height: 110vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1;
+  }
+
+  .skillslang .sk {
+    margin-top: 20rem;
+    font-size: 2.6rem;
+    margin-bottom: 0rem;
+  }
+
+  .skillslang .lg {
+    font-size: 2.6rem;
+    margin-bottom: 0rem;
+    margin-top: -2rem;
+  }
+
+  .card-container {
+    margin-left: -2rem;
+    margin-top: -55rem;
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    max-width: 2rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    max-width: 3rem;
+  }
+
+  .card:hover {
+    max-width: 3em;
+  }
+  .card h2 {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .language {
+    margin-top: -18rem;
+    margin-left: 1rem;
+  }
+
+  .language h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    display: grid;
+    grid-column: 1;
+  }
+
+  .language .titlelan {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-left: rem;
+    margin-top: rem;
+  }
+
+  .language span {
+    font-size: 1.4rem;
+  }
+
+  .language img {
+    width: 15%;
+  }
 }

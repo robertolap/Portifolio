@@ -243,3 +243,191 @@
   align-self: flex-end;
   margin-left: 45rem;
 }
+
+@media (max-width: 320px) {
+  .work {
+    padding-bottom: 60vw;
+  }
+  .worktitle {
+    font-size: 2rem;
+  }
+  .popup {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .awstitle {
+    width: 80%;
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+
+  .awstitle span {
+    font-size: 1.6rem;
+  }
+
+  .aws {
+    margin-left: 2rem;
+    margin-top: 12rem;
+    width: 80%;
+    height: 40%;
+    grid-column: 1;
+  }
+
+  .bayertitle {
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 8rem;
+    grid-column: 1;
+    font-size: 2rem;
+  }
+
+  .bayertitle span {
+    font-size: 1.6rem;
+  }
+
+  .bayer {
+    display: grid;
+    margin-top: 14rem;
+    margin-left: 2rem;
+    width: 80%;
+    height: 40%;
+    grid-column: 1;
+  }
+
+  .tivittitle {
+    margin-left: 2rem;
+    margin-top: 10rem;
+    font-size: 2rem;
+  }
+
+  .tivittitle span {
+    font-size: 1.6rem;
+  }
+
+  .tivit {
+    display: grid;
+    margin-left: 2rem;
+    width: 80%;
+    height: 40%;
+    margin-top: 16rem;
+    grid-column: 1;
+  }
+
+  .saudetitle {
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+    grid-column: 1;
+    font-size: 2rem;
+  }
+
+  .saudetitle span {
+    font-size: 1.6rem;
+  }
+
+  .saude {
+    display: grid;
+    margin-left: 2rem;
+    margin-top: 18rem;
+    width: 80%;
+    height: 40%;
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 425px) {
+  .work {
+    padding-bottom: 60vw;
+  }
+  .worktitle {
+    font-size: 2rem;
+  }
+  .popup {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .awstitle {
+    width: 80%;
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+
+  .awstitle span {
+    font-size: 1.6rem;
+  }
+
+  .aws {
+    margin-left: 2rem;
+    margin-top: 12rem;
+    width: 80%;
+    height: 40%;
+    grid-column: 1;
+  }
+
+  .bayertitle {
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 8rem;
+    grid-column: 1;
+    font-size: 2rem;
+  }
+
+  .bayertitle span {
+    font-size: 1.6rem;
+  }
+
+  .bayer {
+    display: grid;
+    margin-top: 14rem;
+    margin-left: 2rem;
+    width: 80%;
+    height: 40%;
+    grid-column: 1;
+  }
+
+  .tivittitle {
+    margin-left: 2rem;
+    margin-top: 10rem;
+    font-size: 2rem;
+  }
+
+  .tivittitle span {
+    font-size: 1.6rem;
+  }
+
+  .tivit {
+    display: grid;
+    margin-left: 2rem;
+    width: 80%;
+    height: 40%;
+    margin-top: 16rem;
+    grid-column: 1;
+  }
+
+  .saudetitle {
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+    grid-column: 1;
+    font-size: 2rem;
+  }
+
+  .saudetitle span {
+    font-size: 1.6rem;
+  }
+
+  .saude {
+    display: grid;
+    margin-left: 2rem;
+    margin-top: 18rem;
+    width: 80%;
+    height: 40%;
+    grid-column: 1;
+  }
+}
