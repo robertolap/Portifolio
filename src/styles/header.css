@@ -1,10 +1,9 @@
 header {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
@@ -12,8 +11,8 @@ header {
 }
 
 header nav {
-  margin-top: 0.6vw;
-  margin-bottom: 0.6vw;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
   display: flex;
 }
 
@@ -21,29 +20,27 @@ header h1 {
   font-family: "Lora", serif;
   font-weight: 700;
   color: rgb(255, 255, 255);
-  font-size: 1.5vw;
-  margin-right: 36vw;
-  text-shadow: 1vw 1vw 2vw rgba(0, 0, 0, 1);
+  font-size: 2rem;
+  margin-right: 45rem;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
   padding-bottom: 0.2rem;
 }
 
 header ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
 }
 
 header a {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
   display: flex;
   font-family: "Poppins";
   font-weight: 700;
   color: rgb(255, 255, 255);
-  font-size: 1.2vw;
+  font-size: 1.8rem;
   text-decoration: none;
-  margin-right: 2vw;
+  margin-right: 2.5rem;
   position: relative;
-  text-shadow: 1vw 1vw 2vw rgba(0, 0, 0, 1);
   margin-top: 0.3rem;
 }
 
@@ -53,7 +50,7 @@ header a:after {
   bottom: 0;
   content: "";
   display: block;
-  height: 0.2vw;
+  height: 2px;
   left: 50%;
   position: absolute;
   background: #fff;
@@ -67,18 +64,18 @@ header a:hover:after {
 }
 
 .loader {
-  --dim: 1.5vw;
+  --dim: 1.5rem;
   width: var(--dim);
   height: var(--dim);
   position: relative;
   animation: spin988 2s linear infinite;
-  margin-top: 0.3vw;
-  margin-right: 1vw;
+  margin-top: 0.6rem;
+  margin-right: 1.5rem;
 }
 
 .loader .circle {
   --color: #ffffff;
-  --dim: 0.9vw;
+  --dim: 0.9rem;
   width: var(--dim);
   height: var(--dim);
   background-color: var(--color);

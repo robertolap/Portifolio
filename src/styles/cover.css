@@ -8,16 +8,16 @@
 
 .hello {
   color: white;
-  font-size: 4.5vw;
+  font-size: 5rem;
   font-family: "Poppins";
-  padding-top: 16vw;
-  margin-left: 4vw;
-  text-shadow: 2vw 2vw 4vw rgba(0, 0, 0, 1);
+  padding-top: 20rem;
+  margin-left: 6rem;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
 }
 
 .hello::after {
   content: "|";
-  margin-left: 0.5vw;
+  margin-left: 0.5rem;
   opacity: 1;
   animation: pisca 1s infinite;
 }
@@ -44,31 +44,31 @@
 
 .front {
   color: white;
-  font-size: 10vw;
-  margin-left: 5vw;
+  font-size: 12rem;
+  margin-left: 6rem;
   font-family: "Bebas Neue", sans-serif;
-  text-shadow: 2vw 2vw 4vw rgba(0, 0, 0, 1);
-  margin-top: 5vw;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+  margin-top: 6rem;
 }
 
 .developer {
   color: white;
-  margin-left: 5vw;
-  font-size: 9vw;
+  margin-left: 6rem;
+  font-size: 10rem;
   font-family: "Bebas Neue", sans-serif;
-  text-shadow: 2vw 2vw 4vw rgba(0, 0, 0, 1);
-  margin-top: -3vw;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+  margin-top: -3rem;
 }
 
 .intro {
-  text-shadow: 3vw 3vw 3vw rgba(0, 0, 0, 1);
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
   color: rgb(255, 255, 255);
   font-family: "Poppins";
   font-weight: 700;
-  font-size: 2vw;
-  width: 42vw;
+  font-size: 2.5rem;
+  width: 40%;
   text-align: left;
-  margin-top: -18vw;
-  margin-left: 55vw;
+  margin-top: -22rem;
+  margin-left: 66rem;
   border-radius: 15px;
 }

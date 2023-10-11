@@ -10,16 +10,16 @@
 }
 
 .academictitle {
-  margin-top: 5vw;
+  margin-top: 8rem;
   color: white;
-  font-size: 3.5vw;
+  font-size: 4.5rem;
   font-family: "Lora", serif;
 }
 
 .carouselcont {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 7vw;
+  margin-top: 10rem;
 }
 
 .educationtitle {
@@ -27,31 +27,30 @@
   justify-content: center;
   color: white;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3vw;
-  margin-bottom: vw;
+  font-size: 4rem;
 }
 
 .edu {
   display: grid;
   width: 80%;
-  margin-left: 5vw;
+  margin-left: 6rem;
 }
 
 .edu h3 {
   color: #f2c27e;
   font-family: "Poppins";
-  font-size: 1.8vw;
+  font-size: 2.4rem;
 }
 
 .edu p {
   color: white;
   font-family: "Poppins";
-  font-size: 1.6vw;
+  font-size: 2.2rem;
 }
 .edu span {
   color: white;
   font-family: "Poppins";
-  font-size: 1.4vw;
+  font-size: 2rem;
 }
 
 .carousel-slide {
