@@ -1,4 +1,4 @@
-import { React } from "react";
+import React from "react";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
       </div>
 
       <h1 className="name">Roberto Lapetina</h1>
-      <ul>
+      <ul className="menu">
         <li>
           <a href="#aboutMe">About Me</a>
         </li>
@@ -25,6 +25,7 @@ const Header = () => {
           <a href="#projects">Projects</a>
         </li>
       </ul>
+      <i class="fa-solid fa-bars"></i>
     </nav>
   );
 };

@@ -9,6 +9,9 @@ header {
   backdrop-filter: blur(5px);
   border-bottom: 1px solid #ffffff;
 }
+header nav i {
+  color: transparent;
+}
 
 header nav {
   margin-top: 0.8rem;
@@ -126,5 +129,20 @@ header a:hover:after {
   95%,
   100% {
     transform: scale(1) rotate(360deg);
+  }
+}
+
+@media (max-width: 425px) {
+  header {
+    width: 100%;
+    position: fixed;
+  }
+  header nav ul {
+    display: none;
+  }
+
+  header nav i {
+    color: #f7f7f7;
+    font-size: 60px;
   }
 }

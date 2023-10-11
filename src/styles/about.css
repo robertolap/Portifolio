@@ -134,3 +134,13 @@
     stroke-dashoffset: 5;
   }
 }
+
+@media (max-width: 320px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .hi {
+    font-size: 2rem;
+  }
+}
