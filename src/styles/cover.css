@@ -1,138 +1,94 @@
-.backgroundimage {
-  width: 100%;
-  height: 130vh;
-  background-image: url("/src/img/backtest.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.hello {
-  color: white;
-  font-size: 5rem;
-  font-family: "Poppins";
-  padding-top: 20rem;
-  margin-left: 6rem;
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
-}
-
-.hello::after {
-  content: "|";
-  margin-left: 0.5rem;
-  opacity: 1;
-  animation: pisca 1s infinite;
-}
-
-@keyframes pisca {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-@keyframes inicializar {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -4vw, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.front {
-  color: white;
-  font-size: 12rem;
-  margin-left: 6rem;
-  font-family: "Bebas Neue", sans-serif;
-  text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
-  margin-top: 6rem;
-}
-
-.developer {
-  color: white;
-  margin-left: 6rem;
-  font-size: 10rem;
-  font-family: "Bebas Neue", sans-serif;
-  text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
-  margin-top: -3rem;
-}
-
-.intro {
-  text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
-  color: rgb(255, 255, 255);
-  font-family: "Poppins";
-  font-weight: 700;
-  font-size: 2.5rem;
-  width: 40%;
-  text-align: left;
-  margin-top: -22rem;
-  margin-left: 66rem;
-  border-radius: 15px;
-}
-
-@media (max-width: 350px) {
+@media only screen and (min-width: 1920px) {
   .backgroundimage {
-    width: 100vw;
-    height: 80vh;
+    width: 100%;
+    height: 130vh;
+    background-image: url("/src/img/backtest.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .hello {
-    font-size: 2rem;
-    margin-left: 1rem;
-    padding-top: 8rem;
+    color: white;
+    font-size: 5rem;
+    font-family: "Poppins";
+    padding-top: 20rem;
+    margin-left: 6rem;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+  }
+
+  .hello::after {
+    content: "|";
+    margin-left: 0.5rem;
+    opacity: 1;
+    animation: pisca 1s infinite;
+  }
+
+  @keyframes pisca {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+  @keyframes inicializar {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -4vw, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   .front {
-    margin-left: 1rem;
-    font-size: 4rem;
-    margin-top: 0rem;
+    color: white;
+    font-size: 12rem;
+    margin-left: 6rem;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+    margin-top: 6rem;
   }
+
   .developer {
-    font-size: 3rem;
-    margin-left: 1rem;
-    margin-top: -1rem;
+    color: white;
+    margin-left: 6rem;
+    font-size: 10rem;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+    margin-top: -3rem;
   }
 
   .intro {
-    font-size: 1rem;
-    margin-left: 1rem;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 2.5rem;
+    width: 40%;
     text-align: left;
-    margin-top: 1rem;
-    width: 85%;
+    margin-top: -22rem;
+    margin-left: 66rem;
+    border-radius: 15px;
   }
 }
 
-@media (max-width: 425px) {
-  .backgroundimage {
-    width: 100vw;
-    height: 80vh;
-  }
-
+@media only screen and (min-width: 2560px) {
   .hello {
-    font-size: 2rem;
-    margin-left: 1rem;
-    padding-top: 8rem;
+    margin-left: 18rem;
+    padding-top: 40rem;
   }
 
   .front {
-    margin-left: 1rem;
-    font-size: 4rem;
-    margin-top: 0rem;
+    margin-left: 18rem;
   }
   .developer {
-    font-size: 3rem;
-    margin-left: 1rem;
-    margin-top: -1rem;
+    margin-left: 18rem;
   }
 
   .intro {
-    font-size: 1rem;
-    margin-left: 1rem;
-    text-align: left;
-    margin-top: 1rem;
-    width: 85%;
+    margin-left: 80rem;
   }
 }

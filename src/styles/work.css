@@ -1,433 +1,274 @@
-.work {
-  padding-top: 5vw;
-  width: 100%;
-  background-color: #131313;
-  position: relative;
-  padding-bottom: 10vw;
-}
-
-.work::after {
-  content: "";
-  display: block;
-  width: 80%;
-  border-bottom: 1px solid #ccc;
-  position: absolute;
-  bottom: 0;
-  left: 10%;
-  padding-bottom: 10vw;
-}
-
-.titlecont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.worktitle {
-  margin-top: 4rem;
-  color: white;
-  font-size: 4.5rem;
-  font-family: "Lora", serif;
-}
-
-.popup {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-}
-
-.awstitle {
-  font-family: "Bebas Neue", sans-serif;
-  margin-top: 10rem;
-  margin-left: 30rem;
-  font-size: 3.5rem;
-  color: white;
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.awstitle span {
-  font-family: "Poppins";
-  font-size: 2.5rem;
-}
-
-.bayertitle {
-  font-family: "Bebas Neue", sans-serif;
-  margin-top: 12rem;
-  margin-left: 2rem;
-  font-size: 3.5rem;
-  color: white;
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.bayertitle span {
-  font-family: "Poppins";
-  font-size: 2.5rem;
-}
-
-.tivittitle {
-  font-family: "Bebas Neue", sans-serif;
-  margin-top: 12rem;
-  margin-left: 34rem;
-  font-size: 3.5rem;
-  color: white;
-  grid-column: 1;
-  grid-row: 3;
-}
-
-.tivittitle span {
-  font-family: "Poppins";
-  font-size: 2.5rem;
-}
-
-.saudetitle {
-  font-family: "Bebas Neue", sans-serif;
-  margin-top: 12rem;
-  margin-left: 2rem;
-  font-size: 3.5rem;
-  color: white;
-  grid-column: 2;
-  grid-row: 4;
-}
-
-.saudetitle span {
-  font-family: "Poppins";
-  font-size: 2.5rem;
-}
-
-.aws {
-  filter: grayscale(100%);
-  border: none;
-  background-image: url("/src/img/aws.png");
-  background-size: 40%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #203344;
-  width: 60%;
-  height: 60%;
-  grid-column: 2;
-  grid-row: 1;
-  border-radius: 6px;
-  margin-top: 10rem;
-  transition: transform 0.5s ease;
-  cursor: pointer;
-}
-
-.aws:hover {
-  transform: scale(0.9);
-  filter: grayscale(0%);
-}
-
-.bayer {
-  filter: grayscale(100%);
-  border: none;
-  background-image: url("/src/img/bayer.jpg");
-  background-size: 99.9%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #e8f6f6;
-  width: 60%;
-  height: 60%;
-  grid-column: 1;
-  grid-row: 2;
-  border-radius: 6px;
-  margin-top: 9rem;
-  margin-left: 22rem;
-  transition: transform 0.5s ease;
-  cursor: pointer;
-}
-
-.bayer:hover {
-  filter: grayscale(0%);
-  transform: scale(0.9);
-}
-
-.tivit {
-  filter: grayscale(100%);
-  border: none;
-  background-image: url("/src/img/tivit.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: #e8f6f6;
-  width: 60%;
-  height: 60%;
-  grid-column: 2;
-  grid-row: 3;
-  border-radius: 6px;
-  margin-top: 10rem;
-  transition: transform 0.5s ease;
-  cursor: pointer;
-}
-
-.tivit:hover {
-  filter: grayscale(0%);
-  transform: scale(0.9);
-}
-
-.saude {
-  filter: grayscale(100%);
-  border: none;
-  background-image: url("/src/img/saude.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #e8f6f6;
-  width: 60%;
-  height: 60%;
-  grid-column: 1;
-  grid-row: 4;
-  border-radius: 6px;
-  margin-top: 9rem;
-  margin-left: 22rem;
-  transition: transform 0.5s ease;
-  cursor: pointer;
-}
-
-.saude:hover {
-  filter: grayscale(0%);
-  transform: scale(0.9);
-}
-
-.hidden-header {
-  display: none;
-}
-
-/* Aqui POPUP content*/
-
-.modal-overlay {
-  background: rgb(39, 39, 39);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal-content {
-  display: grid;
-  margin-top: 3rem;
-  border: 2px solid #ffffff;
-  width: 80vw;
-  height: 80vh;
-  background-color: #131313;
-  padding: 3rem;
-  border-radius: 10px;
-}
-
-.modal-content h2 {
-  display: flex;
-  align-items: center;
-  font-size: 2.8rem;
-  font-family: "Bebas Neue", sans-serif;
-  color: white;
-  text-decoration: underline;
-}
-
-.modal-content p {
-  margin-top: 2rem;
-  color: white;
-  font-family: "Poppins";
-  font-size: 1.65rem;
-  text-align: justify;
-}
-
-.modal-content i {
-  margin-top: 1rem;
-  cursor: pointer;
-  color: white;
-  font-size: 2.5rem;
-  align-self: flex-end;
-  margin-left: 45rem;
-}
-
-@media (max-width: 320px) {
+@media only screen and (min-width: 1920px) {
   .work {
-    padding-bottom: 60vw;
+    padding-top: 5vw;
+    width: 100%;
+    background-color: #131313;
+    position: relative;
+    padding-bottom: 10vw;
   }
+
+  .work::after {
+    content: "";
+    display: block;
+    width: 80%;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    padding-bottom: 10vw;
+  }
+
+  .titlecont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .worktitle {
-    font-size: 2rem;
+    margin-top: 4rem;
+    color: white;
+    font-size: 4.5rem;
+    font-family: "Lora", serif;
   }
+
   .popup {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 
   .awstitle {
-    width: 80%;
-    margin-top: 3rem;
-    font-size: 2rem;
-    margin-left: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 10rem;
+    margin-left: 30rem;
+    font-size: 3.5rem;
+    color: white;
+    grid-column: 1;
+    grid-row: 1;
   }
 
   .awstitle span {
-    font-size: 1.6rem;
-  }
-
-  .aws {
-    margin-left: 2rem;
-    margin-top: 12rem;
-    width: 80%;
-    height: 40%;
-    grid-column: 1;
+    font-family: "Poppins";
+    font-size: 2.5rem;
   }
 
   .bayertitle {
-    width: 80%;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 12rem;
     margin-left: 2rem;
-    margin-top: 8rem;
-    grid-column: 1;
-    font-size: 2rem;
+    font-size: 3.5rem;
+    color: white;
+    grid-column: 2;
+    grid-row: 2;
   }
 
   .bayertitle span {
-    font-size: 1.6rem;
-  }
-
-  .bayer {
-    display: grid;
-    margin-top: 14rem;
-    margin-left: 2rem;
-    width: 80%;
-    height: 40%;
-    grid-column: 1;
+    font-family: "Poppins";
+    font-size: 2.5rem;
   }
 
   .tivittitle {
-    margin-left: 2rem;
-    margin-top: 10rem;
-    font-size: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 12rem;
+    margin-left: 34rem;
+    font-size: 3.5rem;
+    color: white;
+    grid-column: 1;
+    grid-row: 3;
   }
 
   .tivittitle span {
-    font-size: 1.6rem;
-  }
-
-  .tivit {
-    display: grid;
-    margin-left: 2rem;
-    width: 80%;
-    height: 40%;
-    margin-top: 16rem;
-    grid-column: 1;
+    font-family: "Poppins";
+    font-size: 2.5rem;
   }
 
   .saudetitle {
-    width: 80%;
-    margin-left: 2rem;
+    font-family: "Bebas Neue", sans-serif;
     margin-top: 12rem;
-    margin-bottom: 2rem;
-    grid-column: 1;
-    font-size: 2rem;
+    margin-left: 2rem;
+    font-size: 3.5rem;
+    color: white;
+    grid-column: 2;
+    grid-row: 4;
   }
 
   .saudetitle span {
-    font-size: 1.6rem;
+    font-family: "Poppins";
+    font-size: 2.5rem;
+  }
+
+  .aws {
+    filter: grayscale(100%);
+    border: none;
+    background-image: url("/src/img/aws.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #203344;
+    width: 60%;
+    height: 60%;
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 6px;
+    margin-top: 10rem;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+
+  .aws:hover {
+    transform: scale(0.9);
+    filter: grayscale(0%);
+  }
+
+  .bayer {
+    filter: grayscale(100%);
+    border: none;
+    background-image: url("/src/img/bayer.jpg");
+    background-size: 99.9%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #e8f6f6;
+    width: 60%;
+    height: 60%;
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 6px;
+    margin-top: 9rem;
+    margin-left: 22rem;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+
+  .bayer:hover {
+    filter: grayscale(0%);
+    transform: scale(0.9);
+  }
+
+  .tivit {
+    filter: grayscale(100%);
+    border: none;
+    background-image: url("/src/img/tivit.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #e8f6f6;
+    width: 60%;
+    height: 60%;
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 6px;
+    margin-top: 10rem;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+
+  .tivit:hover {
+    filter: grayscale(0%);
+    transform: scale(0.9);
   }
 
   .saude {
-    display: grid;
-    margin-left: 2rem;
-    margin-top: 18rem;
-    width: 80%;
-    height: 40%;
+    filter: grayscale(100%);
+    border: none;
+    background-image: url("/src/img/saude.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e8f6f6;
+    width: 60%;
+    height: 60%;
     grid-column: 1;
+    grid-row: 4;
+    border-radius: 6px;
+    margin-top: 9rem;
+    margin-left: 22rem;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+
+  .saude:hover {
+    filter: grayscale(0%);
+    transform: scale(0.9);
+  }
+
+  .hidden-header {
+    display: none;
+  }
+
+  /* Aqui POPUP content*/
+
+  .modal-overlay {
+    background: rgb(39, 39, 39);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-content {
+    display: grid;
+    margin-top: 3rem;
+    border: 2px solid #ffffff;
+    width: 80vw;
+    height: 80vh;
+    background-color: #131313;
+    padding: 3rem;
+    border-radius: 10px;
+  }
+
+  .modal-content h2 {
+    display: flex;
+    align-items: center;
+    font-size: 2.8rem;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .modal-content p {
+    margin-top: 2rem;
+    color: white;
+    font-family: "Poppins";
+    font-size: 1.65rem;
+    text-align: justify;
+  }
+
+  .modal-content i {
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    font-size: 2.5rem;
+    align-self: flex-end;
+    margin-left: 45rem;
   }
 }
 
-@media (max-width: 425px) {
-  .work {
-    padding-bottom: 60vw;
-  }
-  .worktitle {
-    font-size: 2rem;
-  }
-  .popup {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
+@media only screen and (min-width: 2560px) {
   .awstitle {
-    width: 80%;
-    margin-top: 3rem;
-    font-size: 2rem;
-    margin-left: 2rem;
-  }
-
-  .awstitle span {
-    font-size: 1.6rem;
-  }
-
-  .aws {
-    margin-left: 2rem;
-    margin-top: 12rem;
-    width: 80%;
-    height: 40%;
-    grid-column: 1;
-  }
-
-  .bayertitle {
-    width: 80%;
-    margin-left: 2rem;
-    margin-top: 8rem;
-    grid-column: 1;
-    font-size: 2rem;
-  }
-
-  .bayertitle span {
-    font-size: 1.6rem;
-  }
-
-  .bayer {
-    display: grid;
-    margin-top: 14rem;
-    margin-left: 2rem;
-    width: 80%;
-    height: 40%;
-    grid-column: 1;
+    margin-left: 50rem;
   }
 
   .tivittitle {
-    margin-left: 2rem;
-    margin-top: 10rem;
-    font-size: 2rem;
+    margin-left: 55rem;
   }
-
-  .tivittitle span {
-    font-size: 1.6rem;
+  .bayer {
+    margin-left: 32rem;
   }
-
-  .tivit {
-    display: grid;
-    margin-left: 2rem;
-    width: 80%;
-    height: 40%;
-    margin-top: 16rem;
-    grid-column: 1;
-  }
-
-  .saudetitle {
-    width: 80%;
-    margin-left: 2rem;
-    margin-top: 12rem;
-    margin-bottom: 2rem;
-    grid-column: 1;
-    font-size: 2rem;
-  }
-
-  .saudetitle span {
-    font-size: 1.6rem;
-  }
-
   .saude {
-    display: grid;
-    margin-left: 2rem;
-    margin-top: 18rem;
-    width: 80%;
-    height: 40%;
-    grid-column: 1;
+    margin-left: 32rem;
+  }
+
+  .modal-content h2 {
+    font-size: 4rem;
+  }
+  .modal-content p {
+    font-size: 2rem;
+  }
+
+  .modal-content i {
+    margin-left: 60rem;
   }
 }

@@ -1,109 +1,66 @@
-.footer {
-  display: flex;
-  height: 10vh;
-  width: 100%;
-  background-color: #131313;
-  position: relative;
-}
+@media only screen and (min-width: 1920px) {
+  .footer {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #131313;
+    position: relative;
+  }
 
-.footer::after {
-  content: "";
-  display: block;
-  width: 90%;
-  left: 5%;
-  border-top: 2px solid #ffffff;
-  position: absolute;
-}
-
-.footertitle {
-  font-family: "Lora", serif;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
-  font-size: 1.8rem;
-  margin-top: 1rem;
-  margin-left: 10rem;
-}
-
-.iconsfooter {
-  display: flex;
-  justify-content: center;
-  margin-left: 28rem;
-  margin-top: 1.5rem;
-}
-
-.iconsfooter a i {
-  font-size: 2rem;
-  color: white;
-  margin-left: 1rem;
-}
-
-.iconsfooter a i:hover {
-  transform: scale(1.5);
-  color: #f2c27e;
-}
-
-.frontend {
-  font-family: "Bebas Neue", sans-serif;
-  color: white;
-  font-size: 2.5rem;
-  margin-top: 1rem;
-  margin-left: 36rem;
-}
-
-@media (max-width: 320px) {
   .footer::after {
     content: "";
     display: block;
     width: 90%;
+    left: 5%;
     border-top: 2px solid #ffffff;
     position: absolute;
   }
+
   .footertitle {
-    font-size: 1rem;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 10rem;
   }
 
   .iconsfooter {
-    margin-left: 1rem;
-    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 28rem;
+    margin-top: 1.5rem;
   }
 
   .iconsfooter a i {
-    font-size: 1rem;
+    font-size: 2rem;
+    color: white;
     margin-left: 1rem;
   }
 
+  .iconsfooter a i:hover {
+    transform: scale(1.5);
+    color: #f2c27e;
+  }
+
   .frontend {
-    display: none;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 36rem;
   }
 }
-
-@media (max-width: 425px) {
-  .footer::after {
-    content: "";
-    display: block;
-    width: 90%;
-    border-top: 2px solid #ffffff;
-    position: absolute;
-  }
+@media only screen and (min-width: 2560px) {
   .footertitle {
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 20rem;
   }
 
   .iconsfooter {
-    margin-left: 1rem;
-    margin-top: 1rem;
-  }
-
-  .iconsfooter a i {
-    font-size: 1rem;
-    margin-left: 1rem;
+    margin-left: 40rem;
   }
 
   .frontend {
-    display: none;
+    margin-left: 44rem;
   }
 }

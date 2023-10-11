@@ -1,143 +1,71 @@
-.academic {
-  width: 100%;
-  background-color: #131313;
-}
-
-.titlecont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.academictitle {
-  margin-top: 8rem;
-  color: white;
-  font-size: 4.5rem;
-  font-family: "Lora", serif;
-}
-
-.carouselcont {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 10rem;
-}
-
-.educationtitle {
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 4rem;
-}
-
-.edu {
-  display: grid;
-  width: 80%;
-  margin-left: 6rem;
-}
-
-.edu h3 {
-  color: #f2c27e;
-  font-family: "Poppins";
-  font-size: 2.4rem;
-}
-
-.edu p {
-  color: white;
-  font-family: "Poppins";
-  font-size: 2.2rem;
-}
-.edu span {
-  color: white;
-  font-family: "Poppins";
-  font-size: 2rem;
-}
-
-.carousel-slide {
-  padding: 2.3vw;
-}
-
-.carousel .control-dots .dot {
-  width: 0.8vw;
-  height: 0.8vw;
-}
-
-@media (max-width: 320px) {
-  .academictitle {
-    margin-top: 3rem;
-    font-size: 2rem;
+@media only screen and (min-width: 1920px) {
+  .academic {
+    width: 100%;
+    background-color: #131313;
   }
+
+  .titlecont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .academictitle {
+    margin-top: 8rem;
+    color: white;
+    font-size: 4.5rem;
+    font-family: "Lora", serif;
+  }
+
   .carouselcont {
-    grid-template-columns: 1fr;
-    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
   }
 
   .educationtitle {
-    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
   }
 
   .edu {
+    display: grid;
     width: 80%;
-    margin-left: 2rem;
+    margin-left: 6rem;
   }
 
   .edu h3 {
-    font-size: 1.8rem;
+    color: #f2c27e;
+    font-family: "Poppins";
+    font-size: 2.4rem;
   }
 
   .edu p {
-    font-size: 1.6rem;
+    color: white;
+    font-family: "Poppins";
+    font-size: 2.2rem;
   }
   .edu span {
-    font-size: 1.2rem;
+    color: white;
+    font-family: "Poppins";
+    font-size: 2rem;
   }
 
   .carousel-slide {
-    padding: 12vw;
+    padding: 2.3vw;
   }
 
   .carousel .control-dots .dot {
-    width: 4vw;
-    height: 4vw;
+    width: 0.8vw;
+    height: 0.8vw;
   }
 }
 
-@media (max-width: 425px) {
-  .academictitle {
-    margin-top: 3rem;
-    font-size: 2rem;
-  }
-  .carouselcont {
-    grid-template-columns: 1fr;
-    margin-top: 3rem;
-  }
-
-  .educationtitle {
-    font-size: 2.5rem;
-  }
-
+@media only screen and (min-width: 1920px) {
   .edu {
-    width: 80%;
-    margin-left: 2rem;
-  }
-
-  .edu h3 {
-    font-size: 1.8rem;
-  }
-
-  .edu p {
-    font-size: 1.6rem;
-  }
-  .edu span {
-    font-size: 1.2rem;
-  }
-
-  .carousel-slide {
-    padding: 12vw;
-  }
-
-  .carousel .control-dots .dot {
-    width: 4vw;
-    height: 4vw;
+    margin-left: 8rem;
   }
 }

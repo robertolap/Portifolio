@@ -1,236 +1,102 @@
-.skillslang {
-  height: 70vh;
-  place-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #131313;
-}
-
-.skillslang .sk {
-  grid-column: 1;
-  color: white;
-  font-size: 4rem;
-  margin-top: 6rem;
-  margin-bottom: 10rem;
-  font-family: "Bebas Neue", sans-serif;
-}
-
-.skillslang .lg {
-  margin-top: 4vw;
-  grid-column: 2;
-  color: white;
-  font-size: 4rem;
-  margin-bottom: 10rem;
-  font-family: "Bebas Neue", sans-serif;
-}
-
-.card-container {
-  margin-top: -10rem;
-  display: grid;
-  grid-column: 1;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-
-.card {
-  filter: grayscale(100%);
-  margin-left: 4rem;
-  margin-top: 4rem;
-  max-width: 7rem;
-  transition: all 0.15s linear;
-  transform-origin: center center;
-}
-
-.card img {
-  max-width: 95%;
-  height: auto;
-}
-.card h2 {
-  margin-top: 1rem;
-  font-family: "Poppins";
-  color: white;
-  font-size: 2rem;
-}
-
-.card:hover {
-  max-width: 7rem;
-  filter: grayscale(0%);
-  transform: rotateX(var(--x-rotation, 90)) rotateY(var(--y-rotation, 30));
-  filter: brightness(var(--brightness, 1));
-}
-
-.language {
-  margin-top: -8rem;
-  margin-left: 16rem;
-}
-
-.language h1 {
-  margin-bottom: 2rem;
-  color: white;
-  font-size: 4rem;
-  font-family: "Bebas Neue", sans-serif;
-  display: grid;
-  grid-column: 2;
-}
-
-.language .titlelan {
-  vertical-align: middle;
-  display: inline-block;
-  font-size: 2.6rem;
-  margin-left: 2rem;
-  margin-top: 2rem;
-}
-
-.language span {
-  color: #f2c27e;
-  vertical-align: middle;
-  font-family: "Poppins";
-  font-size: 1.8rem;
-}
-
-.language img {
-  vertical-align: middle;
-  width: 18%;
-}
-
-@media (max-width: 320px) {
+@media only screen and (min-width: 1920px) {
   .skillslang {
-    width: 100%;
-    height: 110vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1;
+    height: 70vh;
+    place-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #131313;
   }
 
   .skillslang .sk {
-    margin-top: 20rem;
-    font-size: 2.6rem;
-    margin-bottom: 0rem;
+    grid-column: 1;
+    color: white;
+    font-size: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+    font-family: "Bebas Neue", sans-serif;
   }
 
   .skillslang .lg {
-    font-size: 2.6rem;
-    margin-bottom: 0rem;
-    margin-top: -2rem;
+    margin-top: 4vw;
+    grid-column: 2;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 10rem;
+    font-family: "Bebas Neue", sans-serif;
   }
 
   .card-container {
-    margin-left: -2rem;
-    margin-top: -55rem;
+    margin-top: -10rem;
     display: grid;
     grid-column: 1;
-    grid-template-columns: 1fr 1fr;
-  }
-  .card {
-    max-width: 2rem;
-    margin-left: 2rem;
-    margin-top: 0.5rem;
-    max-width: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 
-  .card:hover {
-    max-width: 3em;
+  .card {
+    filter: grayscale(100%);
+    margin-left: 4rem;
+    margin-top: 4rem;
+    max-width: 7rem;
+    transition: all 0.15s linear;
+    transform-origin: center center;
+  }
+
+  .card img {
+    max-width: 95%;
+    height: auto;
   }
   .card h2 {
     margin-top: 1rem;
-    font-size: 1rem;
+    font-family: "Poppins";
+    color: white;
+    font-size: 2rem;
+  }
+
+  .card:hover {
+    max-width: 7rem;
+    filter: grayscale(0%);
+    transform: rotateX(var(--x-rotation, 90)) rotateY(var(--y-rotation, 30));
+    filter: brightness(var(--brightness, 1));
   }
 
   .language {
-    margin-top: -18rem;
-    margin-left: 1rem;
+    margin-top: -8rem;
+    margin-left: 16rem;
   }
 
   .language h1 {
-    margin-bottom: 1rem;
-    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 4rem;
+    font-family: "Bebas Neue", sans-serif;
     display: grid;
-    grid-column: 1;
+    grid-column: 2;
   }
 
   .language .titlelan {
     vertical-align: middle;
     display: inline-block;
-    font-size: 1.8rem;
-    margin-left: rem;
-    margin-top: rem;
+    font-size: 2.6rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
   }
 
   .language span {
-    font-size: 1.4rem;
+    color: #f2c27e;
+    vertical-align: middle;
+    font-family: "Poppins";
+    font-size: 1.8rem;
   }
 
   .language img {
-    width: 15%;
+    vertical-align: middle;
+    width: 18%;
   }
 }
 
-@media (max-width: 425px) {
-  .skillslang {
-    width: 100%;
-    height: 110vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1;
-  }
-
-  .skillslang .sk {
-    margin-top: 20rem;
-    font-size: 2.6rem;
-    margin-bottom: 0rem;
-  }
-
-  .skillslang .lg {
-    font-size: 2.6rem;
-    margin-bottom: 0rem;
-    margin-top: -2rem;
-  }
-
-  .card-container {
-    margin-left: -2rem;
-    margin-top: -55rem;
-    display: grid;
-    grid-column: 1;
-    grid-template-columns: 1fr 1fr;
-  }
-  .card {
-    max-width: 2rem;
-    margin-left: 2rem;
-    margin-top: 0.5rem;
-    max-width: 3rem;
-  }
-
-  .card:hover {
-    max-width: 3em;
-  }
-  .card h2 {
-    margin-top: 1rem;
-    font-size: 1rem;
-  }
-
+@media only screen and (min-width: 1920px) {
   .language {
-    margin-top: -18rem;
-    margin-left: 1rem;
-  }
-
-  .language h1 {
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    display: grid;
-    grid-column: 1;
-  }
-
-  .language .titlelan {
-    vertical-align: middle;
-    display: inline-block;
-    font-size: 1.8rem;
-    margin-left: rem;
-    margin-top: rem;
-  }
-
-  .language span {
-    font-size: 1.4rem;
-  }
-
-  .language img {
-    width: 15%;
+    margin-left: 20rem;
   }
 }

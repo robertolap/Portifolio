@@ -3,15 +3,15 @@ import React from "react";
 const Header = () => {
   return (
     <nav>
-      <div class="loader">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+      <div className="loader">
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
       </div>
 
       <h1 className="name">Roberto Lapetina</h1>
-      <ul className="menu">
+      <ul className="menu" id="menu">
         <li>
           <a href="#aboutMe">About Me</a>
         </li>
@@ -25,7 +25,7 @@ const Header = () => {
           <a href="#projects">Projects</a>
         </li>
       </ul>
-      <i class="fa-solid fa-bars"></i>
+      <i className="fa-solid fa-bars" id="menuIcon"></i>
     </nav>
   );
 };
