@@ -76,3 +76,39 @@
     padding-bottom: 0.9rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  nav {
+    padding: 38px 38px;
+    justify-content: space-around;
+  }
+  .name {
+    width: auto;
+    padding-right: 1rem;
+  }
+  .menu {
+    justify-content: end;
+    margin-top: -2.5rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  nav {
+    padding: 38px 38px;
+    justify-content: space-around;
+  }
+  .name {
+    font-size: 2rem;
+    width: auto;
+    padding-right: 1rem;
+  }
+  .menu {
+    justify-content: end;
+    margin-top: -3rem;
+  }
+
+  .menu li {
+    margin-right: 2rem;
+  }
+  .menu li a {
+    font-size: 1.8rem;
+  }
+}
