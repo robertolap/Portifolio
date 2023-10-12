@@ -1,2 +1,42 @@
 @media only screen and (min-width: 320px) {
+  .hello {
+    color: white;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-family: "Young Serif", serif;
+  }
+
+  .front {
+    color: white;
+    font-family: "Francois One", sans-serif;
+    font-size: 3.5rem;
+    padding-left: 1rem;
+  }
+  .developer {
+    color: white;
+    font-family: "Francois One", sans-serif;
+    font-size: 3.5rem;
+    padding-left: 1rem;
+  }
+
+  .intro {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-align: start;
+    padding: 1rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .intro {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .intro {
+    font-size: 1.5rem;
+  }
 }
