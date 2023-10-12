@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import aws from "./img/aws.png";
 
 Modal.setAppElement("#root");
 const Work = () => {

@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
 * {
+  background-color: #131313;
   margin: 0;
   padding: 0;
   outline: 0;

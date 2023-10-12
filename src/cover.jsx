@@ -1,3 +1,4 @@
+/*
 import React, { useEffect } from "react";
 
 const Cover = () => {
@@ -32,3 +33,4 @@ const Cover = () => {
   );
 };
 export default Cover;
+*/

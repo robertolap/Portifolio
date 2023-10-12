@@ -1,3 +1,4 @@
+/*
 import React, { useRef } from "react";
 import git from "./img/git.png";
 import js from "./img/js.png";
@@ -100,3 +101,4 @@ const Skillslang = () => {
 };
 
 export default Skillslang;
+*/

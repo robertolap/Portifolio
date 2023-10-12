@@ -1,3 +1,4 @@
+/*
 import { React } from "react";
 import vivo from "./img/vivo.png";
 import banco from "./img/banco.png";
@@ -102,3 +103,4 @@ const College = () => {
 };
 
 export default College;
+*/
