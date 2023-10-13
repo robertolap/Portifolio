@@ -100,6 +100,14 @@
     padding: 2rem 4rem;
   }
 }
+@media only screen and (min-width: 1024px) {
+  .intro {
+    text-align: left;
+    font-size: 2.4rem;
+    padding-left: 6rem;
+    margin-top: 0rem;
+  }
+}
 @media only screen and (min-width: 1440px) {
   .hello {
     font-size: 4rem;

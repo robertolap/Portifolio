@@ -1,2 +1,159 @@
 @media only screen and (min-width: 320px) {
+  .work {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+
+  .worktitle {
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-family: "Young Serif", serif;
+    font-size: 1.6rem;
+  }
+
+  .popup .awstitle,
+  .bayertitle,
+  .tivittitle,
+  .saudetitle {
+    display: grid;
+    justify-content: center;
+    padding-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+  }
+
+  .awstitle,
+  span {
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+  }
+  .aws {
+    margin-top: 1rem;
+    background-image: url("../img/aws.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #232f3e;
+    width: 15rem;
+    height: 8rem;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: transform 0.3s, filter 0.3s;
+  }
+
+  .aws:hover {
+    transform: scale(0.9);
+    filter: grayscale(0%);
+  }
+
+  .bayer {
+    margin-top: 1rem;
+    background-image: url("../img/bayer.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #e8f6f6;
+    width: 15rem;
+    height: 8rem;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: transform 0.3s, filter 0.3s;
+  }
+
+  .bayer:hover {
+    transform: scale(0.9);
+    filter: grayscale(0%);
+  }
+
+  .tivit {
+    margin-top: 1rem;
+    background-image: url("../img/tivit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #e8f6f6;
+    width: 15rem;
+    height: 8rem;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: transform 0.3s, filter 0.3s;
+  }
+
+  .tivit:hover {
+    transform: scale(0.9);
+    filter: grayscale(0%);
+  }
+
+  .saude {
+    margin-top: 1rem;
+    background-image: url("../img/saude.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #e8f6f6;
+    width: 15rem;
+    height: 8rem;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: transform 0.3s, filter 0.3s;
+  }
+
+  .saude:hover {
+    transform: scale(0.9);
+    filter: grayscale(0%);
+  }
+  .modal-content {
+    color: white;
+    width: 80%;
+    max-width: 800px; /* Define um tamanho máximo para o modal */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para efeito de elevação */
+    padding: 20px; /* Espaçamento interno do modal */
+  }
+
+  /* Define um estilo para o overlay (fundo do modal) */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(65, 65, 65, 0.5); /* Fundo semi-transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Certifica-se de que o modal esteja na parte superior */
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .saude,
+  .tivit,
+  .bayer,
+  .aws {
+    width: 18rem;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .saude,
+  .tivit,
+  .bayer,
+  .aws {
+    width: 20rem;
+  }
+
+  .popup .awstitle,
+  .bayertitle,
+  .tivittitle,
+  .saudetitle {
+    font-size: 2.4rem;
+  }
 }

@@ -116,6 +116,7 @@ const About = () => {
           <i class="fas fa-envelope"></i>
         </a>
       </div>
+      <div className="linebottom"> </div>
     </section>
   );
 };

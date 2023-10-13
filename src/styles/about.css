@@ -1,6 +1,6 @@
 @media only screen and (min-width: 320px) {
   .about {
-    width: 100vw;
+    width: 100%;
     display: grid;
     justify-content: center;
   }
@@ -74,7 +74,7 @@
 
   .linecontact {
     outline: 2px solid #ffffff;
-    width: 10rem;
+    width: 9rem;
     border-radius: 20px;
     margin-top: 2rem;
     margin-left: 1rem;
@@ -95,6 +95,13 @@
   .icons a i:hover {
     color: burlywood;
     transform: scale(1.2);
+  }
+
+  .linebottom {
+    width: 80%;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 375px) {
@@ -250,8 +257,8 @@
   }
 
   .loader {
-    width: 28em;
-    height: 28em;
+    width: 32em;
+    height: 32em;
   }
 
   .icons {
