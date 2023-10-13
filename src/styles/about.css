@@ -1,4 +1,10 @@
 @media only screen and (min-width: 320px) {
+  .about {
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+  }
+
   .hi {
     font-family: "Young Serif", serif;
     color: white;
@@ -54,8 +60,8 @@
   }
 
   .monalisa {
-    padding-top: 2rem;
-    padding-left: 3rem;
+    justify-content: center;
+    display: grid;
   }
 
   .contact {
@@ -75,14 +81,15 @@
   }
 
   .icons {
+    display: flex;
+    justify-content: center;
     margin-top: 2rem;
-    margin-left: 3.5rem;
   }
 
   .icons a i {
+    padding-left: 1rem;
     font-size: 1.8rem;
     color: white;
-    margin-left: 1.4rem;
     transition: color 0.3s, transform 0.3s;
   }
   .icons a i:hover {
@@ -111,14 +118,9 @@
     width: 10.5rem;
   }
 
-  .icons {
-    margin-top: 2rem;
-    margin-left: 3.8rem;
-  }
-
   .icons a i {
     font-size: 2.2rem;
-    margin-left: 1.6rem;
+    padding-left: 1.6rem;
   }
 }
 
@@ -139,20 +141,9 @@
 
   .monalisa {
     padding-top: 2rem;
-    padding-left: 4.5rem;
   }
 
   .linecontact {
     margin-left: 2rem;
-  }
-
-  .icons {
-    margin-top: 3rem;
-    margin-left: 5.5rem;
-  }
-
-  .icons a i {
-    font-size: 2.2rem;
-    margin-left: 1.6rem;
   }
 }
