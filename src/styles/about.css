@@ -13,6 +13,9 @@
   }
 
   .hi span {
+    justify-content: left;
+    font-size: 2rem;
+    font-family: "Young Serif", serif;
     color: burlywood;
   }
 
@@ -162,6 +165,10 @@
     padding-left: 5rem;
     grid-column: 1;
   }
+
+  .hi span {
+    font-size: 3rem;
+  }
   .text1 {
     grid-column: 1;
     font-size: 1.5rem;
@@ -192,6 +199,16 @@
     margin-left: 2rem;
     font-size: 2.3rem;
   }
+
+  .linebottom {
+    display: grid;
+    grid-column: span 2;
+    width: 90%;
+    padding-top: 1rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .about {
@@ -202,6 +219,10 @@
     font-size: 3.5rem;
     padding-left: 5rem;
     grid-column: 1;
+  }
+
+  .hi span {
+    font-size: 3.5rem;
   }
   .text1 {
     grid-column: 1;
@@ -244,6 +265,10 @@
     padding-left: 8rem;
     grid-column: 1;
   }
+
+  .hi span {
+    font-size: 3.8rem;
+  }
   .text1 {
     grid-column: 1;
     font-size: 2rem;
@@ -275,6 +300,10 @@
   .hi {
     font-size: 4rem;
     padding-left: 10rem;
+  }
+
+  .hi span {
+    font-size: 4rem;
   }
   .text1 {
     text-align: justify;

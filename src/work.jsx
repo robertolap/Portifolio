@@ -82,19 +82,19 @@ const Work = () => {
             actionable recommendations for cost optimization and FinOps journey.
             Key customers included Boticário, Nubank, BTG, OLX, Banco Inter,
             PagSeguro, AME, B3, and others.{" "}
-            <p>
+            <li>
               Business Value: Assisting AWS customers and potential customers in
               shaping their IT technology strategies and IT financial models,
               quantifying the business and technological benefits of the cloud.
-            </p>
-            <p>
+            </li>
+            <li>
               {" "}
               Cloud Financial Management or FinOps: Helping customers implement
               cloud adoption governance best practices, increasing the business
               value of the cloud by bringing together technology, business, and
               finance professionals with a new set of cloud processes and
               operational models.
-            </p>
+            </li>
           </p>
 
           <i class="fa-solid fa-x" onClick={closeAwsModal}></i>
@@ -114,20 +114,20 @@ const Work = () => {
         >
           <h2>Internship in IT Sales Department: Bayer</h2>
 
-          <p>
+          <li>
             Building a Data Quality project for the Grower-Data Lab, Market, and
             Customer Intelligence sector with the aim of comparing data quality
             by assessing the data source against its consumption location.
-          </p>
+          </li>
           <br />
-          <p>Querying relational SQL databases.</p>
+          <li>Querying relational SQL databases.</li>
           <br />
-          <p>Conducting exploratory data analysis using Python.</p>
+          <li>Conducting exploratory data analysis using Python.</li>
           <br />
-          <p>
+          <li>
             Creating service feedback and improvements in PowerPoint format for
             Bayer's farmer clients.
-          </p>
+          </li>
           <br />
           <p>Assisting in budgeting and product sales. </p>
 
@@ -147,14 +147,14 @@ const Work = () => {
           className="modal-content"
         >
           <h2>Internship in Digital Consulting (Pre-sales): Tivit </h2>
-          <p>Assisted in building the company's case studies.</p>
+          <li>Assisted in building the company's case studies.</li>
           <br />
-          <p>
+          <li>
             Assisted in the preparation of contracts and services with
             third-party IT companies.
-          </p>
+          </li>
           <br />
-          <p>Aided the sales team in mapping potential future clients.</p>
+          <li>Aided the sales team in mapping potential future clients.</li>
           <i class="fa-solid fa-x" onClick={closeTivitModal}></i>
         </Modal>
 
@@ -171,32 +171,32 @@ const Work = () => {
           className="modal-content"
         >
           <h2>General Supervisor Optical and Ophthalmology Clinic </h2>
-          <p>
+          <li>
             Acrylic lens polisher - Responsible for assembling glasses and
             lenses.
-          </p>
+          </li>
           <br />
-          <p>
+          <li>
             System computerization/developing the advertising and marketing area
             - Responsible for creating artwork, slogans, videos, among others,
             using tools like Photoshop. Organized files, customer records,
             supplier accounts, employees, among others, using tools such as
             Excel, Access, Word, and PowerPoint.
-          </p>
+          </li>
           <br />
-          <p>
+          <li>
             Sales team leader - Responsible for leading and guiding a team of 4
             employees in the sales department, with the objectives of achieving
             targets and optimizing sales.
-          </p>
+          </li>
           <br />
-          <p>
+          <li>
             {" "}
             Financial and administrative department - Responsible for organizing
             purchases of merchandise and equipment for the company, capital
             turnover, and verifying incoming and outgoing values for the
             company.
-          </p>
+          </li>
           <i class="fa-solid fa-x" onClick={closeSaudeModal}></i>
         </Modal>
       </div>

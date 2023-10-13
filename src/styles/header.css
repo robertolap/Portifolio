@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 5px 20px;
     background: transparent;
     color: white;
     z-index: 999;
@@ -13,7 +13,7 @@
 
   .name {
     background: transparent;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
     padding-bottom: 0.5rem;
     font-size: 1.2rem;
     font-family: "Young Serif", serif;
@@ -59,7 +59,7 @@
   }
 
   .underline {
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
     background: transparent;
     border-bottom: 1px solid #ffffff;
     padding-bottom: 1rem;
@@ -86,7 +86,7 @@
 }
 @media only screen and (min-width: 768px) {
   nav {
-    padding: 18px 38px;
+    padding: 5px 38px;
     justify-content: space-around;
   }
   .name {
@@ -105,9 +105,6 @@
   }
 }
 @media only screen and (min-width: 1024px) {
-  nav {
-    padding: 12px 38px;
-  }
   .name {
     font-size: 1.8rem;
     width: auto;
@@ -120,7 +117,6 @@
 }
 @media only screen and (min-width: 1440px) {
   nav {
-    padding: 18px 38px;
     justify-content: space-around;
   }
   .name {
