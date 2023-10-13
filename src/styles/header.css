@@ -85,7 +85,7 @@
 }
 @media only screen and (min-width: 768px) {
   nav {
-    padding: 38px 38px;
+    padding: 18px 38px;
     justify-content: space-around;
   }
   .name {
@@ -101,6 +101,20 @@
 
   .underline {
     border-bottom: 2px solid #ffffff;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  nav {
+    padding: 12px 38px;
+  }
+  .name {
+    font-size: 1.8rem;
+    width: auto;
+    padding-bottom: 0.4rem;
+  }
+
+  .menu li {
+    margin-right: 1.6rem;
   }
 }
 @media only screen and (min-width: 1440px) {

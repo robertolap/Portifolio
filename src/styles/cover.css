@@ -29,7 +29,6 @@
     padding: 1rem 1rem;
   }
 }
-
 @media only screen and (min-width: 375px) {
   .hello {
     font-size: 2.2rem;
@@ -46,7 +45,6 @@
     font-size: 1.4rem;
   }
 }
-
 @media only screen and (min-width: 425px) {
   .hello {
     font-size: 2.4rem;
@@ -66,7 +64,6 @@
     padding: 1.5rem 1.5rem;
   }
 }
-
 @media only screen and (min-width: 768px) {
   .backgroundimage {
     background-image: url("../img/backtest.png");
@@ -103,7 +100,6 @@
     padding: 2rem 4rem;
   }
 }
-
 @media only screen and (min-width: 1440px) {
   .hello {
     font-size: 4rem;
@@ -122,12 +118,19 @@
   .intro {
     font-weight: 700;
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding-left: 58rem;
-    margin-top: -22rem;
+    margin-top: -29rem;
   }
 }
-
+@media only screen and (min-width: 1900px) {
+  .intro {
+    text-align: left;
+    font-size: 2.2rem;
+    padding-left: 60rem;
+    margin-top: -20rem;
+  }
+}
 @media only screen and (min-width: 2560px) {
   .hello {
     font-size: 5rem;
