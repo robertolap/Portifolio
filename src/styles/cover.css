@@ -124,7 +124,29 @@
     text-align: left;
     font-size: 2.5rem;
     padding-left: 58rem;
-    padding-top: 0rem;
-    margin-top: -24rem;
+    margin-top: -22rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .hello {
+    font-size: 5rem;
+    padding-left: 6rem;
+    padding-top: 20rem;
+  }
+  .front {
+    font-size: 14rem;
+    padding-left: 6rem;
+  }
+  .developer {
+    font-size: 14rem;
+    margin-top: -4rem;
+    padding-left: 6rem;
+  }
+  .intro {
+    text-align: left;
+    font-size: 3rem;
+    padding-left: 68rem;
+    margin-top: -22rem;
   }
 }

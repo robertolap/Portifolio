@@ -1,2 +1,158 @@
 @media only screen and (min-width: 320px) {
+  .hi {
+    font-family: "Young Serif", serif;
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+  }
+
+  .hi span {
+    color: burlywood;
+  }
+
+  .text1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-align: start;
+    padding: 1rem 1rem;
+  }
+
+  .loader {
+    width: 14em;
+    height: 14em;
+  }
+
+  .loader path {
+    stroke: #ffffff;
+    stroke-width: 0.6px;
+    animation: dashArray 4s ease-in-out infinite, dashOffset 4s linear infinite;
+  }
+
+  @keyframes dashArray {
+    0% {
+      stroke-dasharray: 0 1 359 0;
+    }
+
+    50% {
+      stroke-dasharray: 0 359 1 0;
+    }
+
+    100% {
+      stroke-dasharray: 359 1 0 0;
+    }
+  }
+
+  @keyframes dashOffset {
+    0% {
+      stroke-dashoffset: 365;
+    }
+
+    100% {
+      stroke-dashoffset: 5;
+    }
+  }
+
+  .monalisa {
+    padding-top: 2rem;
+    padding-left: 3rem;
+  }
+
+  .contact {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding-left: 1rem;
+  }
+
+  .linecontact {
+    outline: 2px solid #ffffff;
+    width: 10rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  .icons {
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+  }
+
+  .icons a i {
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 1.4rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+  .icons a i:hover {
+    color: burlywood;
+    transform: scale(1.2);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .hi {
+    font-size: 2.2rem;
+  }
+
+  .text1 {
+    font-size: 1.4rem;
+  }
+  .loader {
+    width: 16em;
+    height: 16em;
+  }
+
+  .contact {
+    font-size: 1.4rem;
+  }
+  .linecontact {
+    width: 10.5rem;
+  }
+
+  .icons {
+    margin-top: 2rem;
+    margin-left: 3.8rem;
+  }
+
+  .icons a i {
+    font-size: 2.2rem;
+    margin-left: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .hi {
+    font-size: 2.2rem;
+    padding-left: 2rem;
+  }
+
+  .text1 {
+    font-size: 1.4rem;
+    padding: 1.5rem 1.5rem;
+  }
+  .loader {
+    width: 18em;
+    height: 18em;
+  }
+
+  .monalisa {
+    padding-top: 2rem;
+    padding-left: 4.5rem;
+  }
+
+  .linecontact {
+    margin-left: 2rem;
+  }
+
+  .icons {
+    margin-top: 3rem;
+    margin-left: 5.5rem;
+  }
+
+  .icons a i {
+    font-size: 2.2rem;
+    margin-left: 1.6rem;
+  }
 }

@@ -12,7 +12,7 @@
 
   .name {
     background: transparent;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
     padding-bottom: 0.5rem;
     font-size: 1.2rem;
     font-family: "Young Serif", serif;
@@ -29,7 +29,7 @@
   .menu li {
     background: transparent;
     display: inline;
-    margin-right: 0.7rem;
+    margin-right: 0.6rem;
     cursor: pointer;
   }
   .menu-link {
@@ -58,7 +58,7 @@
   }
 
   .underline {
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
     background: transparent;
     border-bottom: 1px solid #ffffff;
     padding-bottom: 1rem;

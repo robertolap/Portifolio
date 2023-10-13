@@ -17,8 +17,9 @@ const Cover = () => {
   };
 
   return (
-    <section className="backgroundimage">
-      <h2 className="hello">I'm a </h2>
+    <section className={"backgroundimage"}>
+      <h2 className="hello">Hey there, I'm a </h2>
+
       <h1 className="front">Front-End</h1>
       <h1 className="developer">Developer</h1>
       <p className="intro">
