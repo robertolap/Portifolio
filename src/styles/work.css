@@ -13,6 +13,11 @@
     font-family: "Young Serif", serif;
     font-size: 1.6rem;
   }
+  .popup {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5rem;
+    margin: 0 auto;
+  }
 
   .popup .awstitle,
   .bayertitle,
