@@ -116,7 +116,7 @@
   .modal-content {
     border: 1px solid white;
     overflow-y: auto;
-    width: 85%;
+    width: 80%;
     max-height: 90vh;
     margin: 0 auto;
     border-radius: 10px;
@@ -155,6 +155,14 @@
     cursor: pointer;
   }
 
+  .modal-content span {
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    color: burlywood;
+    font-weight: bold;
+  }
+
   /* Define um estilo para o overlay (fundo do modal) */
   .modal-overlay {
     overflow-y: auto;
@@ -181,6 +189,9 @@
 }
 
 @media only screen and (min-width: 425px) {
+  .worktitle {
+    font-size: 2rem;
+  }
   .saude,
   .tivit,
   .bayer,
@@ -193,6 +204,12 @@
   .tivittitle,
   .saudetitle {
     font-size: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: 725px) {
+  .worktitle {
+    font-size: 2.3rem;
   }
 }
 
@@ -249,8 +266,8 @@
 
 @media only screen and (min-width: 1440px) {
   .worktitle {
-    font-size: 3rem;
-    padding-bottom: 2rem;
+    font-size: 3.5rem;
+    padding-bottom: 5rem;
   }
   .popup {
     width: 100rem;
@@ -334,5 +351,33 @@
     width: 38rem;
     height: 12rem;
     margin-left: 14rem;
+  }
+
+  .modal-content {
+    width: 70%;
+  }
+
+  .modal-content h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .modal-content p {
+    font-size: 1.6rem;
+    text-align: justify;
+  }
+
+  .modal-content li {
+    font-size: 1.6rem;
+    text-align: justify;
+  }
+
+  .modal-content i {
+    font-size: 2rem;
+  }
+
+  .modal-content span {
+    font-size: 1.6rem;
+    text-align: justify;
   }
 }
