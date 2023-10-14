@@ -92,12 +92,16 @@
   .name {
     text-shadow: 4px 4px 6px #000;
     width: auto;
+    font-size: 1.2rem;
     padding-right: 1rem;
   }
   .menu {
     text-shadow: 4px 4px 6px #000;
     justify-content: end;
     margin-top: -2.5rem;
+  }
+  .menu li a {
+    font-size: 1.2rem;
   }
 
   .underline {
@@ -106,12 +110,13 @@
 }
 @media only screen and (min-width: 1024px) {
   .name {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: auto;
-    padding-bottom: 0.4rem;
+    padding-bottom: 0rem;
   }
 
   .menu li {
+    padding-top: 0.5rem;
     margin-right: 1.6rem;
   }
 }
@@ -120,6 +125,7 @@
     justify-content: space-around;
   }
   .name {
+    padding-bottom: 0rem;
     font-size: 2rem;
     width: auto;
     margin-right: 2rem;
@@ -134,5 +140,8 @@
   }
   .menu li a {
     font-size: 1.8rem;
+  }
+  .underline {
+    padding-bottom: 0.5rem;
   }
 }
