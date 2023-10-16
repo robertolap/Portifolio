@@ -18,6 +18,8 @@
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
     padding-top: 1rem;
+    text-decoration: underline;
+    text-decoration: overline;
   }
   .carousel-slide h3 {
     display: grid;
@@ -49,5 +51,101 @@
     justify-content: center;
     display: grid;
     margin: auto;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .carousel-slide h3 {
+    font-size: 1.6rem;
+    padding-top: 2rem;
+  }
+
+  .carousel-slide p {
+    font-size: 1.4rem;
+  }
+
+  .carousel-slide span {
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .academictitle {
+    font-size: 2.3rem;
+  }
+  .educationtitle {
+    font-size: 2.1rem;
+    padding-top: 1rem;
+  }
+
+  .carousel-slide h3 {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+  .carousel-slide p {
+    font-size: 1.8rem;
+  }
+
+  .carousel-slide span {
+    padding-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .academictitle {
+    font-size: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .carouselcont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .academictitle {
+    font-size: 3.5rem;
+  }
+  .educationtitle {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+  }
+  .carousel-slide {
+    width: auto;
+  }
+
+  .carousel-slide h3 {
+    text-align: center;
+    font-size: 1.9rem;
+    padding-top: 1.8rem;
+  }
+
+  .carousel-slide p {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .carousel-slide span {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .carousel-slide h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 1.8rem;
+  }
+
+  .carousel-slide p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .carousel-slide span {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
   }
 }

@@ -17,6 +17,8 @@ const About = () => {
       <div className="tech">
         <img src={gifImage} alt="GIF animado" />
       </div>
+
+      <h2 className="contact">Contact Me</h2>
       <div className="icons">
         {" "}
         <a

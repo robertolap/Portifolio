@@ -63,7 +63,7 @@ const CertificationCarousel = () => {
 
         <div className="carousel-slide">
           <h3>AWS Partner:</h3>
-          <p> SAP on AWS</p>
+          <p>SAP</p>
           <span>2023-2026</span>
         </div>
       </Carousel>
