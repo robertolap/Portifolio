@@ -178,7 +178,6 @@
     z-index: 1000;
   }
 }
-
 @media only screen and (min-width: 375px) {
   .saude,
   .tivit,
@@ -187,7 +186,6 @@
     width: 18rem;
   }
 }
-
 @media only screen and (min-width: 425px) {
   .worktitle {
     font-size: 2rem;
@@ -206,13 +204,11 @@
     font-size: 2.4rem;
   }
 }
-
 @media only screen and (min-width: 768px) {
   .worktitle {
     font-size: 2.3rem;
   }
 }
-
 @media only screen and (min-width: 1024px) {
   .work {
     width: 100%;
@@ -263,7 +259,6 @@
     grid-row: 4;
   }
 }
-
 @media only screen and (min-width: 1440px) {
   .worktitle {
     font-size: 3.5rem;
