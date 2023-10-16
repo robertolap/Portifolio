@@ -74,19 +74,19 @@ const Work = () => {
             I contributed directly and indirectly to
             <span>
               20 Business Cases, 24 Cloud Financial Management (CFM) Capability
-              Assessments (CA), and co-led 4 scale initiatives
+              Assessments (CA), and co-led 4 scale initiatives.
             </span>
-            . Key Business Cases included
+            Key Business Cases included
             <span>
               Embraer, Serasa Experience, BTG, OI/VTAL, FCA Stellantis,
-              Localiza, Ipiranga, Grupo Ultra, and others,
+              Localiza, Ipiranga, Grupo Ultra, and others.
             </span>
-            involving a mix of reactive support and proactive coordination of
+            Involving a mix of reactive support and proactive coordination of
             migration activities, TCO calculations, and additional pillars of
             the Cloud Value Framework of CE. I enhanced the CFM CA process by
             assessing customer scenarios and providing actionable
             recommendations for cost optimization and FinOps journey. Key
-            customers included
+            customers included:
             <span>
               Boticário, Nubank, BTG, OLX, Banco Inter, PagSeguro, AME, B3, and
               others.

@@ -1,4 +1,5 @@
 import { React } from "react";
+import gifImage from "./img/dev.png";
 
 const About = () => {
   return (
@@ -14,25 +15,7 @@ const About = () => {
       </p>
 
       <div className="tech">
-        <div class="container">
-          <div class="plate">
-            <div class="black">
-              <div class="border">
-                <div class="white">
-                  <div class="center"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="player">
-            <div class="rect"></div>
-            <div class="circ"></div>
-          </div>
-        </div>
-      </div>
-      <div className="linecontact">
-        <h2 className="contact">Contact Me</h2>
+        <img src={gifImage} alt="GIF animado" />
       </div>
       <div className="icons">
         {" "}
@@ -51,7 +34,7 @@ const About = () => {
           <i class="fab fa-github"></i>
         </a>
         <a
-          href="https://wa.me/990055730"
+          href="https://wa.me/5511990055730"
           target="_blank"
           rel="noopener noreferrer"
         >

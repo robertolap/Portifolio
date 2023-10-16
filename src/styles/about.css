@@ -1,5 +1,6 @@
 @media only screen and (min-width: 320px) {
   .about {
+    background-color: #131313;
     width: 100%;
     display: grid;
     justify-content: center;
@@ -16,7 +17,7 @@
     justify-content: left;
     font-size: 2rem;
     font-family: "Young Serif", serif;
-    color: burlywood;
+    color: #deb887;
   }
 
   .text1 {
@@ -32,103 +33,23 @@
     display: grid;
   }
 
-  .container {
-    width: 175px;
-    height: 175px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    position: relative;
-    box-shadow: 5px 5px 0 0 #675d50;
+  .tech img {
+    margin: auto;
+    width: 70%;
+    margin-top: 4rem;
+    animation: moveUpDown 4s infinite;
   }
 
-  .plate {
-    width: fit-content;
-    background-color: white;
-  }
-
-  .plate .black,
-  .plate .white,
-  .plate .center,
-  .plate .border {
-    border-radius: 100%;
-  }
-
-  .container,
-  .plate .black,
-  .plate .white,
-  .plate .border {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .plate .black {
-    width: 150px;
-    height: 150px;
-    background-color: #000000;
-    animation: rotation 2s infinite linear;
-  }
-
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0); /* Comece no ponto inicial */
     }
-
-    to {
-      transform: rotate(359deg);
+    50% {
+      transform: translateY(-40px); /* Mova para cima */
     }
-  }
-
-  .plate .white {
-    width: 70px;
-    height: 70px;
-    background-color: #f3deba;
-  }
-
-  .plate .center {
-    width: 20px;
-    height: 20px;
-    background-color: #000000;
-  }
-
-  .plate .border {
-    width: 111px;
-    height: 111px;
-    border-top: 3px solid #f3deba;
-    border-bottom: 3px solid #f3deba;
-    border-left: 3px solid #000000;
-    border-right: 3px solid #000000;
-  }
-
-  .player {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: fit-content;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 8px;
-    margin-right: 8px;
-    rotate: -45deg;
-  }
-
-  .player .circ {
-    width: 25px;
-    height: 25px;
-    background-color: #f3deba;
-    border-radius: 100%;
-    z-index: 1;
-  }
-
-  .player .rect {
-    width: 10px;
-    height: 55px;
-    background-color: #f3deba;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 5px;
+    100% {
+      transform: translateY(0); /* Volte para o ponto inicial */
+    }
   }
 
   .contact {
@@ -137,14 +58,7 @@
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     padding-left: 1rem;
-  }
-
-  .linecontact {
-    outline: 2px solid #ffffff;
-    width: 9rem;
-    border-radius: 20px;
-    margin-top: 2rem;
-    margin-left: 1rem;
+    text-decoration: underline;
   }
 
   .icons {
@@ -187,9 +101,6 @@
   .contact {
     font-size: 1.4rem;
   }
-  .linecontact {
-    width: 10.5rem;
-  }
 
   .icons a i {
     font-size: 2.2rem;
@@ -206,17 +117,21 @@
     font-size: 1.4rem;
     padding: 1.5rem 1.5rem;
   }
-  .loader {
-    width: 18em;
-    height: 18em;
+
+  .contact {
+    padding-left: 2rem;
   }
 
   .tech {
     padding-top: 2rem;
   }
-
-  .linecontact {
-    margin-left: 2rem;
+}
+@media only screen and (min-width: 768px) {
+  .hi {
+    margin-top: 3rem;
+  }
+  .contact {
+    padding-left: 5rem;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -245,13 +160,8 @@
     grid-column: 2;
   }
 
-  .loader {
-    width: 20em;
-    height: 20em;
-  }
-
-  .linecontact {
-    margin-left: 5rem;
+  .contact {
+    padding-left: 5rem;
   }
 
   .icons {
@@ -280,6 +190,7 @@
   }
 
   .hi {
+    padding-top: 4rem;
     font-size: 3.5rem;
     padding-left: 5rem;
     grid-column: 1;
@@ -297,21 +208,13 @@
 
   .contact {
     font-size: 1.8rem;
-    padding-left: 1rem;
-  }
-
-  .linecontact {
-    width: 12.5rem;
-  }
-
-  .loader {
-    width: 22em;
-    height: 22em;
+    padding-left: 5rem;
+    margin-top: -8rem;
   }
 
   .icons {
     grid-column: 1;
-    margin-top: 3rem;
+    margin-top: -2rem;
   }
 
   .icons a i {
@@ -327,6 +230,7 @@
   .hi {
     font-size: 3.8rem;
     padding-left: 8rem;
+    margin-top: 5rem;
     grid-column: 1;
   }
 
@@ -340,19 +244,15 @@
     padding-left: 8rem;
   }
 
-  .linecontact {
-    margin-left: 10rem;
-    width: 12.5rem;
-  }
-
-  .loader {
-    width: 32em;
-    height: 32em;
+  .contact {
+    font-size: 2rem;
+    padding-left: 10rem;
+    margin-top: -15rem;
   }
 
   .icons {
     grid-column: 1;
-    margin-top: 3rem;
+    margin-top: -8rem;
   }
 
   .icons a i {
@@ -375,23 +275,8 @@
     padding-left: 10rem;
   }
 
-  .linecontact {
-    margin-left: 10rem;
-    width: 12.5rem;
-  }
-
-  .loader {
-    width: 42em;
-    height: 42em;
-  }
-
   .contact {
-    font-size: 2.2rem;
-    padding-left: 1rem;
-  }
-
-  .linecontact {
-    margin-top: -4rem;
-    width: 14.8rem;
+    font-size: 2.5rem;
+    padding-left: 10rem;
   }
 }

@@ -78,7 +78,7 @@
     background: transparent;
     font-size: 3rem;
     padding-left: 4rem;
-    padding-top: 6rem;
+    padding-top: 10rem;
   }
   .front {
     text-shadow: 4px 4px 6px #000;
@@ -117,42 +117,43 @@
   .front {
     grid-row: 1;
     grid-column: 1;
-    margin-top: 20rem;
+    margin-top: 24rem;
   }
 
   .developer {
     grid-row: 1;
     grid-column: 1;
-    margin-top: 26rem;
+    margin-top: 30rem;
   }
   .intro {
     grid-column: 2;
     grid-row: 1;
+    font-weight: 700;
     text-align: left;
     font-size: 1.4rem;
     padding: 4rem 4rem;
-    margin-top: 16rem;
+    margin-top: 20rem;
   }
 }
 @media only screen and (min-width: 1440px) {
   .backgroundimage {
-    height: 70rem;
+    height: 60rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .hello {
     font-size: 3.8rem;
     padding-left: 4rem;
-    padding-top: 14rem;
+    padding-top: 12rem;
   }
   .front {
     font-size: 10rem;
     padding-left: 4rem;
-    padding-top: 14rem;
+    padding-top: 8rem;
   }
   .developer {
     font-size: 10rem;
-    padding-top: 18rem;
+    padding-top: 12rem;
     padding-left: 4rem;
   }
   .intro {
@@ -160,15 +161,24 @@
     text-align: left;
     font-size: 2rem;
     padding-left: 4rem;
-    padding-top: 22rem;
+    padding-top: 16rem;
   }
 }
 @media only screen and (min-width: 1900px) {
+  .hello {
+    padding-top: 20rem;
+  }
+  .front {
+    padding-top: 12rem;
+  }
+  .developer {
+    padding-top: 15rem;
+  }
   .intro {
     text-align: left;
     font-size: 2.2rem;
     padding-left: 0rem;
-    margin-top: 16rem;
+    padding-top: 20rem;
   }
 }
 @media only screen and (min-width: 2560px) {
