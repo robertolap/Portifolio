@@ -2,8 +2,8 @@
   .skillslang {
     width: 100%;
     background: white;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -149,30 +149,59 @@
     height: auto;
     width: 8%;
   }
+}
+@media only screen and (min-width: 1440px) {
+  .sk {
+    font-size: 2.8rem;
+    padding-bottom: 3rem;
+  }
 
-  @media only screen and (min-width: 1440px) {
-    .sk {
-      font-size: 2.8rem;
-      padding-bottom: 3rem;
-    }
+  .skills h2 {
+    font-size: 2.2rem;
+  }
 
-    .skills h2 {
-      font-size: 2.2rem;
-    }
+  .lg {
+    font-size: 2.8rem;
+  }
 
-    .lg {
-      font-size: 2.8rem;
-    }
+  .language span {
+    font-size: 2.4rem;
+  }
 
-    .language span {
-      font-size: 2.4rem;
-    }
+  .language img {
+    width: 8%;
+  }
+  .lg-container {
+    padding-right: 6%;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .sk {
+    font-size: 2.8rem;
+    padding-bottom: 3rem;
+  }
 
-    .language img {
-      width: 8%;
-    }
-    .lg-container {
-      padding-right: 6%;
-    }
+  .skills h2 {
+    font-size: 2.2rem;
+  }
+
+  .skills img {
+    background: transparent;
+    width: 40%;
+  }
+
+  .lg {
+    font-size: 2.8rem;
+  }
+
+  .language span {
+    font-size: 2.4rem;
+  }
+
+  .language img {
+    width: 7%;
+  }
+  .lg-container {
+    padding-right: 6%;
   }
 }
