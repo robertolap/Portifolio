@@ -27,6 +27,14 @@ const Cover = () => {
         about the world of web development, focused on problem solving and the
         user experience.
       </p>
+      <a
+        class="button"
+        href="https://drive.google.com/file/d/1iWlqG5SrGl_tnlYr7sQWFP3XrHtgvnnt/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download CV
+      </a>
     </section>
   );
 };

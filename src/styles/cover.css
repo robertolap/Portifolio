@@ -1,4 +1,8 @@
 @media only screen and (min-width: 320px) {
+  .backgroundimage {
+    margin-bottom: 3rem;
+  }
+
   .hello {
     color: white;
     padding-top: 10rem;
@@ -27,6 +31,38 @@
     font-size: 1rem;
     text-align: start;
     padding: 0.5rem 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .button {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    width: fit-content;
+    --bg: #ffffff;
+    --hover-bg: #deb887;
+    --hover-text: #000;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
   }
 }
 @media only screen and (min-width: 375px) {
@@ -71,7 +107,8 @@
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 0rem;
-    height: 40rem;
+    height: fit-content;
+    padding-bottom: 2rem;
   }
   .hello {
     text-shadow: 4px 4px 6px #000;
@@ -99,10 +136,13 @@
     font-size: 1.4rem;
     padding: 2rem 4rem;
   }
+
+  .button {
+    margin-left: 4rem;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .backgroundimage {
-    height: 40rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -133,6 +173,15 @@
     font-size: 1.4rem;
     padding: 4rem 4rem;
     margin-top: 20rem;
+  }
+
+  .backgroundimage a {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .button {
+    margin-top: -2rem;
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -165,6 +214,9 @@
   }
 }
 @media only screen and (min-width: 1900px) {
+  .backgroundimage {
+  }
+
   .hello {
     padding-top: 20rem;
   }
@@ -178,12 +230,18 @@
     text-align: left;
     font-size: 2.2rem;
     padding-left: 0rem;
-    padding-top: 20rem;
+    padding-top: 18rem;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    margin-top: -4rem;
+    margin-left: 0;
   }
 }
 @media only screen and (min-width: 2560px) {
   .backgroundimage {
-    height: 100rem;
+    height: fit-content;
   }
   .hello {
     font-size: 6.5rem;
@@ -205,5 +263,11 @@
     font-size: 3rem;
     padding-left: 0rem;
     padding-top: 38rem;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    margin-left: 0;
   }
 }
