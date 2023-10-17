@@ -1,2 +1,53 @@
 @media only screen and (min-width: 320px) {
+  .footer {
+    padding-top: 2rem;
+    width: 100%;
+  }
+  .line {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .content {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .iconsfooter a i {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-left: 1rem;
+  }
+
+  .iconsfooter a i:hover {
+    color: burlywood;
+    transform: scale(1.4);
+  }
+}
+@media only screen and (min-width: 375px) {
+  .iconsfooter a i {
+    font-size: 1.6rem;
+    margin-left: 1.4rem;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .iconsfooter a i {
+    font-size: 1.8rem;
+    margin-left: 1.4rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .content {
+    padding: 3rem;
+  }
+  .iconsfooter a i {
+    font-size: 2.5rem;
+    margin-left: 1.8rem;
+  }
 }

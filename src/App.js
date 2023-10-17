@@ -5,8 +5,8 @@ import Work from "./work";
 import Academic from "./academic";
 import Skillslang from "./skillslang";
 import College from "./college";
-/*import Footer from "./footer";
- */
+import Footer from "./footer";
+
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
       <Academic />
       <Skillslang />
       <College />
+      <Footer />
     </>
   );
 }
