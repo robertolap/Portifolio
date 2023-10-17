@@ -1,6 +1,7 @@
 @media only screen and (min-width: 320px) {
   .academic {
     padding-top: 3rem;
+    padding-bottom: 4rem;
     display: grid;
     grid-template-columns: 1fr;
   }
