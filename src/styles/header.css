@@ -34,7 +34,7 @@
   .menu li {
     background: transparent;
     display: inline;
-    margin-right: 0.6rem;
+    margin-right: 0.8rem;
     cursor: pointer;
   }
   .menu-link {
@@ -72,6 +72,9 @@
   }
 }
 @media only screen and (min-width: 375px) {
+  .menu li {
+    margin-right: 1.2rem;
+  }
   .menu li a {
     font-size: 1.2rem;
   }
@@ -84,6 +87,9 @@
 @media only screen and (min-width: 425px) {
   .menu li a {
     font-size: 1.4rem;
+  }
+  .menu li {
+    margin-right: 1rem;
   }
   .name {
     text-shadow: 4px 4px 6px #000;
