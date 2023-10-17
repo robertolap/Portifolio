@@ -71,35 +71,29 @@ const Work = () => {
             Internship Migrations and Cloud Economics Latam: Amazon Web Service
           </h2>
           <p>
-            I contributed directly and indirectly to
-            <span>
-              20 Business Cases, 24 Cloud Financial Management (CFM) Capability
-              Assessments (CA), and co-led 4 scale initiatives.
-            </span>
-            Key Business Cases included
-            <span>
-              Embraer, Serasa Experience, BTG, OI/VTAL, FCA Stellantis,
-              Localiza, Ipiranga, Grupo Ultra, and others.
-            </span>
-            Involving a mix of reactive support and proactive coordination of
-            migration activities, TCO calculations, and additional pillars of
-            the Cloud Value Framework of CE. I enhanced the CFM CA process by
-            assessing customer scenarios and providing actionable
-            recommendations for cost optimization and FinOps journey. Key
-            customers included:
-            <span>
-              Boticário, Nubank, BTG, OLX, Banco Inter, PagSeguro, AME, B3, and
-              others.
-            </span>
-            <span>Business Value: </span>Assisting AWS customers and potential
-            customers in shaping their IT technology strategies and IT financial
-            models, quantifying the business and technological benefits of the
-            cloud.
-            <span>Cloud Financial Management or FinOps:</span> Helping customers
-            implement cloud adoption governance best practices, increasing the
-            business value of the cloud by bringing together technology,
-            business, and finance professionals with a new set of cloud
-            processes and operational models.
+            I contributed directly and indirectly to 20 Business Cases, 24 Cloud
+            Financial Management (CFM) Capability Assessments (CA), and co-led 4
+            scale initiatives. Key Business Cases included Embraer, Serasa
+            Experience, BTG, OI/VTAL, FCA Stellantis, Localiza, Ipiranga, Grupo
+            Ultra, and others. <br /> Involving a mix of reactive support and
+            proactive coordination of migration activities, TCO calculations,
+            and additional pillars of the Cloud Value Framework of CE. I
+            enhanced the CFM CA process by assessing customer scenarios and
+            providing actionable recommendations for cost optimization and
+            FinOps journey. Key customers included: Boticário, Nubank, BTG, OLX,
+            Banco Inter, PagSeguro, AME, B3, and others.
+            <li>
+              Business Value: Assisting AWS customers and potential customers in
+              shaping their IT technology strategies and IT financial models,
+              quantifying the business and technological benefits of the cloud.
+            </li>
+            <li>
+              Cloud Financial Management or FinOps:Helping customers implement
+              cloud adoption governance best practices, increasing the business
+              value of the cloud by bringing together technology, business, and
+              finance professionals with a new set of cloud processes and
+              operational models.
+            </li>
           </p>
 
           <i class="fa-solid fa-x" onClick={closeAwsModal}></i>
@@ -120,12 +114,9 @@ const Work = () => {
           <h2>Internship in IT Sales Department: Bayer</h2>
 
           <li>
-            Building a Data Quality project for the
-            <span>
-              Grower-Data Lab, Market, and Customer Intelligence sector
-            </span>
-            with the aim of comparing data quality by assessing the data source
-            against its consumption location.
+            Building a Data Quality project for the Grower-Data Lab, Market, and
+            Customer Intelligence sector with the aim of comparing data quality
+            by assessing the data source against its consumption location.
           </li>
           <br />
           <li>Querying relational SQL databases.</li>
@@ -137,7 +128,7 @@ const Work = () => {
             Bayer's farmer clients.
           </li>
           <br />
-          <p>Assisting in budgeting and product sales. </p>
+          <li>Assisting in budgeting and product sales. </li>
 
           <i class="fa-solid fa-x" onClick={closeBayerModal}></i>
         </Modal>
