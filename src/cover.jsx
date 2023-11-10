@@ -20,12 +20,12 @@ const Cover = () => {
     <section className={"backgroundimage"}>
       <h2 className="hello">Hey there, I'm a </h2>
 
-      <h1 className="front">Front-End</h1>
-      <h1 className="developer">Developer</h1>
+      <h1 className="front">Data</h1>
+      <h1 className="developer">Enginner</h1>
       <p className="intro">
-        As a junior front-end enthusiast just starting my career, I am learning
-        about the world of web development, focused on problem solving and the
-        user experience.
+        As a junior enthusiast just starting my career, I am learning about the
+        world of software development and data engineering, focused on
+        problem-solving and user experience.
       </p>
       <a
         class="button"
