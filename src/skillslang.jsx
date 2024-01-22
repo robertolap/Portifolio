@@ -1,9 +1,9 @@
 import React from "react";
 import git from "./img/git.png";
-import js from "./img/js.png";
-import react from "./img/react.png";
-import html from "./img/html.png";
-import css from "./img/css.png";
+import python from "./img/python-logo.svg";
+import awscloud from "./img/aws_icon_146074.png";
+import finops from "./img/finops.png";
+import office from "./img/office.webp";
 import sql from "./img/sql.png";
 import china from "../src/img/china.png";
 import eua from "../src/img/eua.png";
@@ -25,24 +25,24 @@ const Skillslang = () => {
               <img src={git} alt="git" />
             </td>
             <td>
-              <h2>JS</h2>
-              <img src={js} alt="js" />
+              <h2>Pyhton</h2>
+              <img src={python} alt="python" />
             </td>
           </tr>
           <tr>
             <td>
-              <h2>React</h2>
-              <img src={react} alt="react" />
+              <h2>AWS Cloud</h2>
+              <img src={awscloud} alt="aws" />
             </td>
             <td>
-              <h2>HTML 5</h2>
-              <img src={html} alt="html" />
+              <h2>FinOps</h2>
+              <img src={finops} alt="finops" />
             </td>
           </tr>
           <tr>
             <td>
-              <h2>CSS</h2>
-              <img src={css} alt="css" />
+              <h2>MS Office</h2>
+              <img src={office} alt="office" />
             </td>
             <td>
               <h2>SQL</h2>
