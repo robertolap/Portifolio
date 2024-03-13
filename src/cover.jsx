@@ -23,9 +23,11 @@ const Cover = () => {
       <h1 className="front">Data</h1>
       <h1 className="developer">Enginner</h1>
       <p className="intro">
-        As a junior enthusiast just starting my career, I am learning about the
-        world of software development and data engineering, focused on
-        problem-solving and user experience.
+        As a recent graduate in Computer Engineering and passionate about the
+        field of data, I'm eager to delve into both data engineering and data
+        analysis. My journey is focused on learning and excelling in this
+        sector, continually seeking innovative solutions and generating
+        beneficial insights and analyses for companies.
       </p>
       <a
         class="button"

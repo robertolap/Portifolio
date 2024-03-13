@@ -9,9 +9,9 @@ const About = () => {
         <span>Looking for</span>
       </h2>
       <p className="text1">
-        A opportunities in the Software Development or Data Engineering field. I
-        have experience in IT Business and FinOps, which allows me to bring a
-        cost or commercial perspective to solutions that may be developed.
+        A opportunities in the Data Analysis or Data Engineering field. I have
+        experience in IT Business and FinOps, which allows me to bring a cost or
+        commercial perspective to solutions that may be developed.
       </p>
 
       <div className="tech">
