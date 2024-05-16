@@ -31,7 +31,7 @@ const Cover = () => {
       </p>
       <a
         class="button"
-        href="https://drive.google.com/file/d/1qDBeF-JF89K32zG4Sl3fd0Jy1pntKZFS/view"
+        href="https://drive.google.com/file/d/1ur8K2iRm3R1l27VoeluVpJ0SG9AzgN3D/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
